@@ -1,6 +1,8 @@
 # Lingnanxu 803 Renovation
 
-广州岭南序 6 栋 803（约 118㎡）装修设计与落地管理项目。
+> An AI-assisted, reproducible home-renovation workflow for a real 118㎡ apartment in Guangzhou — from structured floor-plan data and DXF automation to layout design, 3D visualization, budgeting, and construction baselines.
+
+广州岭南序 6 栋 803（约 118㎡）装修设计与落地管理项目。本仓库公开记录一套真实住宅如何通过 **Homeowner + ChatGPT + Codex + CAD/3D tools** 协作，把需求、户型数据、设计决策和施工前成果做成可追踪、可复现、可审查的工程化工作流。
 
 ## 当前阶段
 
