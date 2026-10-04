@@ -1,0 +1,18 @@
+sources:
+  - id: showroom-001
+    filename: LN803_showroom_118sqm_B0.mp4
+    type: handover_showroom_video
+    baseline: B0
+    scope: 118sqm
+    original_filename: 交付样板间视频.mp4
+    storage:
+      provider: google_drive
+      path: /Google Drive/lingnanxu-803-renovation/references/showroom/LN803_showroom_118sqm_B0.mp4
+    sha256: 94afa6364afc0eadd597a29b10e7f76b2ffc0deaff3075fe58d1dfc568ad729d
+    purpose:
+      - spatial_reference
+      - finish_reference
+      - window_and_door_reference
+    notes:
+      - Original source file retained unchanged.
+      - Use as B0 visual evidence only; it does not provide verified construction dimensions.
