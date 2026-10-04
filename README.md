@@ -88,3 +88,21 @@ LN803_LAYOUT_selected_v1.0_20270128.dxf
 3. 重大方案确认形成 baseline。
 4. 重要设计取舍写 ADR，保留原因而不仅是结果。
 5. 效果图服从空间与施工逻辑，不以视觉表现替代可落地性。
+
+
+## Project governance
+
+本项目固定采用以下协作角色：
+
+- **Homeowner / Product Owner**：最终生活方式、预算、设计与验收决策
+- **ChatGPT**：Design Lead / PM / Reviewer
+- **Codex**：Implementation Engineer，负责代码、数据、CAD 自动化和可复现输出
+- **现场专业人员**：对实测尺寸、结构与施工可行性提供现实世界验证
+
+详细规则：
+
+- [Team & Governance](docs/TEAM_AND_GOVERNANCE.md)
+- [Technical Stack](docs/TECH_STACK.md)
+- [Development Workflow](docs/DEVELOPMENT_WORKFLOW.md)
+
+从 B0 自动化工具链建立完成后，默认采用 **Issue → Codex implementation → ChatGPT review → Homeowner acceptance → merge** 的流程。
