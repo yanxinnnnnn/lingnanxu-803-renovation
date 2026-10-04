@@ -15,6 +15,7 @@
 *.jpg
 *.jpeg
 *.png
+!artifacts/*.png
 *.webp
 *.tif
 *.tiff
@@ -42,3 +43,7 @@ Thumbs.db
 __pycache__/
 *.pyc
 .venv/
+.python-runtime/
+.uv-cache/
+.pytest_cache/
+.mpl-cache/

@@ -22,7 +22,9 @@ design:
   three_d_status: not_started
 
 files:
-  base_cad_expected: cad/LN803_BASE_B0_v0.1_20261004.dxf
+  # Canonical generated B0 artifacts; estimated and not for construction.
+  base_cad: cad/LN803_BASE_B0_v0.1_20261004.dxf
+  base_preview: artifacts/LN803_BASE_B0_v0.1_20261004_preview.png
 
 pending_inputs:
   - official_floor_plan
