@@ -62,6 +62,47 @@ C1 施工图冻结
 - `budget/`：预算与报价结构化数据
 - `references/`：外部原始资料索引；大文件本体不建议直接放 Git
 - `scripts/`：后续用于 CAD、预算、数据转换的辅助脚本
+- `data/`：B0 可复现底图的结构化来源
+- `artifacts/`：用于 review 的生成预览
+- `tests/`：数据、DXF、provenance 与可复现性检查
+
+## B0.1 可复现底图
+
+**B0 ESTIMATED PLAN — NOT FOR CONSTRUCTION。** 所有几何与标定均为视觉估算，
+没有现场实测或官方建筑尺寸。B1 获得 verified dimensions 后将替代 B0 几何。
+
+在仓库根目录执行（Python 3.12，由 uv 管理；依赖锁定在 `uv.lock`）：
+
+```bash
+uv sync
+uv run python scripts/validate_floorplan.py
+uv run python scripts/generate_b0_dxf.py
+uv run python scripts/render_preview.py
+uv run pytest
+uv run python scripts/validate_floorplan.py --dxf cad/LN803_BASE_B0_v0.1_20261004.dxf
+git status --short
+```
+
+完整流程生成并检查：
+
+```text
+data/b0_floorplan.yaml
+  → cad/LN803_BASE_B0_v0.1_20261004.dxf
+  → artifacts/LN803_BASE_B0_v0.1_20261004_preview.png
+```
+
+YAML 是几何来源；不要手工修改生成的 DXF 作为新的 source of truth。
+脚本默认路径相对于仓库定位，不依赖机器的绝对路径；也支持 `--data`、`--output`，
+预览脚本支持 `--dxf`。详细 schema、图层和命令见 [CAD](cad/README.md)。
+首次校验检查输入及内存中生成的图层；`--dxf` 同时检查已保存的 DXF 与 YAML 一致。
+无效输入返回非零状态。测试输出使用临时目录。
+
+在已提交的干净 checkout 上，完整流程应保持 `git status --short` 无输出。
+DXF 使用固定元数据与 LF 行尾；预览使用 matplotlib 自带字体和固定 PNG 元数据。
+预览显示英文 room IDs，YAML 与 DXF 保留中文房间名。
+
+Issue #1 的像素坐标原样保留，包括重叠与空隙。房间边界只是示意线，
+不代表实际墙厚、承重属性或施工尺寸；本阶段不补画门扇或家具。
 
 ## 版本规范
 
