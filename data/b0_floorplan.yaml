@@ -1,0 +1,147 @@
+# Source of truth: GitHub Issue #1; preserve its visual trace without redesign.
+metadata:
+  project_code: LN803
+  baseline: B0
+  version: '0.1'
+  artifact_date: '20261004'
+  provenance: estimated
+  cad_unit: mm
+  construction_ready: false
+  warning: 'B0 ESTIMATED PLAN - NOT FOR CONSTRUCTION'
+  note: 'CAD mm are estimated millimetre-like units; no verified construction dimensions.'
+
+sources:
+  - id: issue-1-trace
+    type: marketing_floorplan_visual_trace
+    provenance: estimated
+    reference: https://github.com/yanxinnnnnn/lingnanxu-803-renovation/issues/1
+    note: 'Issue-provided pixel trace; no new dimensions inferred from showroom video.'
+
+trace_coordinate_system:
+  unit: px
+  origin_px: [150, 1400]
+  scale_x_mm_per_px: 15.5
+  scale_y_mm_per_px: 12.5
+  provenance: estimated
+  note: 'Perspective-compensated visual trace from marketing plan; not a measured architectural scale.'
+
+perimeter:
+  id: perimeter
+  source: issue-1-trace
+  provenance: estimated
+  polygon_px:
+    - [450,500]
+    - [1400,500]
+    - [1400,800]
+    - [1150,800]
+    - [1150,1000]
+    - [1400,1000]
+    - [1400,1400]
+    - [750,1400]
+    - [750,1350]
+    - [450,1350]
+    - [450,1150]
+    - [300,1150]
+    - [300,950]
+    - [300,850]
+    - [150,850]
+    - [150,700]
+    - [450,700]
+    - [450,500]
+
+rooms:
+  - id: utility
+    display_name: 家政间
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[150,700],[300,700],[300,850],[150,850]]
+  - id: shoe_storage
+    display_name: 鞋帽区
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[300,700],[450,700],[450,850],[300,850]]
+  - id: entry_garden
+    display_name: 入户花园
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[300,850],[500,850],[500,950],[300,950]]
+  - id: service_balcony
+    display_name: 生活阳台
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[300,950],[450,950],[450,1150],[300,1150]]
+  - id: bedroom_north_1
+    display_name: 北次卧1
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[450,500],[700,500],[700,700],[450,700]]
+  - id: bedroom_north_2
+    display_name: 北次卧2
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[750,500],[950,500],[950,700],[750,700]]
+  - id: bathroom_1
+    display_name: 公卫1
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[450,700],[600,700],[600,850],[450,850]]
+  - id: corridor_entry
+    display_name: 过道/玄关
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[500,800],[950,800],[950,1100],[600,1100],[600,950],[500,950]]
+  - id: master_bathroom
+    display_name: 主卫
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[1000,500],[1100,500],[1100,720],[1000,720]]
+  - id: walk_in_closet
+    display_name: 衣帽间
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[1100,500],[1200,500],[1200,720],[1100,720]]
+  - id: master_bedroom
+    display_name: 主卧
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[1200,500],[1400,500],[1400,800],[1200,800]]
+  - id: flex_tea_room
+    display_name: 茶室/多功能区
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[950,800],[1150,800],[1150,1000],[950,1000]]
+  - id: bathroom_2
+    display_name: 公卫2
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[500,950],[700,950],[700,1150],[500,1150]]
+  - id: bedroom_south
+    display_name: 南次卧
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[450,1150],[750,1150],[750,1350],[450,1350]]
+  - id: kitchen
+    display_name: 厨房
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[750,1100],[950,1100],[950,1400],[750,1400]]
+  - id: dining
+    display_name: 餐厅
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[950,1050],[1150,1050],[1150,1400],[950,1400]]
+  - id: living
+    display_name: 客厅
+    source: issue-1-trace
+    provenance: estimated
+    polygon_px: [[1150,1000],[1400,1000],[1400,1400],[1150,1400]]
+
+glazing:
+  - {id: glazing_1, source: issue-1-trace, provenance: estimated, segment_px: [[475,505],[675,505]]}
+  - {id: glazing_2, source: issue-1-trace, provenance: estimated, segment_px: [[770,505],[930,505]]}
+  - {id: glazing_3, source: issue-1-trace, provenance: estimated, segment_px: [[1230,505],[1360,505]]}
+  - {id: glazing_4, source: issue-1-trace, provenance: estimated, segment_px: [[790,1390],[1370,1390]]}
+  - {id: glazing_5, source: issue-1-trace, provenance: estimated, segment_px: [[1390,530],[1390,775]]}
+  - {id: glazing_6, source: issue-1-trace, provenance: estimated, segment_px: [[1390,1030],[1390,1370]]}
+  - {id: glazing_7, source: issue-1-trace, provenance: estimated, segment_px: [[1160,1010],[1370,1010]]}
+  - {id: glazing_8, source: issue-1-trace, provenance: estimated, segment_px: [[1210,790],[1370,790]]}
