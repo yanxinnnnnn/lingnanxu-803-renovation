@@ -16,12 +16,16 @@ baseline:
   construction_ready: false
 
 design:
+  requirements_version: "0.1"
+  requirements_discovery_status: complete
   layout_status: provisional_input_ready
   style_status: undecided
   budget_status: undecided
   three_d_status: not_started
 
 files:
+  space_program_brief: docs/SPACE_PROGRAM_v0.1.md
+  space_program_data: data/space_program_v0.1.yaml
   # Canonical generated B0 artifacts; estimated and not for construction.
   base_cad: cad/LN803_BASE_B0_v0.1_20261004.dxf
   base_preview: artifacts/LN803_BASE_B0_v0.1_20261004_preview.png
