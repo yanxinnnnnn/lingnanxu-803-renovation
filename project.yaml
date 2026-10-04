@@ -16,7 +16,7 @@ baseline:
   construction_ready: false
 
 design:
-  layout_status: undecided
+  layout_status: provisional_input_ready
   style_status: undecided
   budget_status: undecided
   three_d_status: not_started
@@ -30,6 +30,11 @@ files:
   provisional_reference_cad: cad/LN803_REF_B0.2_provisional_20261004.dxf
   provisional_reference_preview: artifacts/LN803_REF_B0.2_provisional_20261004_preview.png
   onsite_survey_worksheet: measurements/onsite-survey-803.md
+  # B0.3 semantic planning input; B1 and L1 remain pending.
+  layout_input_data: data/b0_layout_input.yaml
+  layout_input_cad: cad/LN803_LAYOUT_INPUT_B0.3_provisional_20261004.dxf
+  layout_input_preview: artifacts/LN803_LAYOUT_INPUT_B0.3_provisional_20261004_preview.png
+  layout_input_summary: docs/B0.3_LAYOUT_INPUT.md
 
 pending_inputs:
   - official_floor_plan

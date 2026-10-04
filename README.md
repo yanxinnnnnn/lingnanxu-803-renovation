@@ -136,6 +136,29 @@ DXF 与 PNG 同时显示第三方 provisional 警告及原 B0 禁止施工警告
 不要改写第三方记录的 provenance。经复核与验收后的 B1 才替代 provisional / estimated 值；
 B0.1、B0.2 和第三方原始来源持续保留。详见 [Measurements](measurements/README.md)。
 
+## B0.3 临时布局输入
+
+`data/b0_layout_input.yaml` 按 Issue #5 人工复核，把五个参考面积语义关联到南次卧、厨房、
+餐厅、客厅与 flex；过道 7.743㎡ 与主套房区 24.345㎡ 保持 medium 候选，
+5.143 / 2.202 / 2.515㎡ 仍未决。Mapping confidence 不表示现场精度；全部数据仍为
+`third_party_reference / provisional / pending_onsite_verification`，不可施工。
+
+B0.1/B0.2 的数据、代码和 artifacts 不变。新 overlay 在 `A-LAYOUT-INPUT` 上区分高/中/未决，
+不重画 polygon、不补录长度、不把套房面积赋予主卧单间。项目仍为 B0，
+`design.layout_status: provisional_input_ready` 仅表示可启动概念 Layout A/B/C 比较，B1/L1 未完成。
+
+```bash
+uv run python scripts/validate_layout_input.py
+uv run python scripts/generate_layout_input.py
+uv run python scripts/validate_layout_input.py --dxf cad/LN803_LAYOUT_INPUT_B0.3_provisional_20261004.dxf
+uv run pytest
+```
+
+新产物为 `cad/LN803_LAYOUT_INPUT_B0.3_provisional_20261004.dxf` 和
+`artifacts/LN803_LAYOUT_INPUT_B0.3_provisional_20261004_preview.png`。
+[B0.3 planning summary](docs/B0.3_LAYOUT_INPUT.md) 列出授权面积、拓扑差异、未决问题、
+概念推敲范围和 B1 前必须现场核验的事项；原 onsite worksheet 继续使用。
+
 ## 版本规范
 
 ```text

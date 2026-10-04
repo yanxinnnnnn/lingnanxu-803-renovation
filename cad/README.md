@@ -103,3 +103,21 @@ uv run python scripts/validate_provisional_measurements.py --dxf cad/LN803_REF_B
 预览为 `artifacts/LN803_REF_B0.2_provisional_20261004_preview.png`；
 overlay / preview 均显示 `THIRD-PARTY PROVISIONAL REFERENCE - VERIFY ON SITE BEFORE B1`。
 字段与 B1 交接步骤见 [Measurements](../measurements/README.md)。
+
+## B0.3 独立布局输入 overlay
+
+`LN803_LAYOUT_INPUT_B0.3_provisional_20261004.dxf` 按 Issue #5 的语义映射添加
+`A-LAYOUT-INPUT` TEXT，绿/橙/紫分别为 high 映射、medium 候选和 unresolved。
+主套房 24.345㎡ 注记放在三候选空间上方，不能解释为主卧单间面积或精确 suite 边界。
+原 B0.1 实体与 B0.2 artifacts 完全保留，不产生新的长度尺寸或改动几何。
+
+```bash
+uv run python scripts/validate_layout_input.py
+uv run python scripts/generate_layout_input.py
+uv run python scripts/validate_layout_input.py --dxf cad/LN803_LAYOUT_INPUT_B0.3_provisional_20261004.dxf
+```
+
+PNG 为 `artifacts/LN803_LAYOUT_INPUT_B0.3_provisional_20261004_preview.png`。
+独立 XDATA `LN803_LAYOUT_INPUT` 保留 provisional provenance、verification 与 mapping 分类。
+DXF/PNG 均含 `PROVISIONAL LAYOUT INPUT - VERIFY AGAINST 803 ONSITE MEASUREMENTS BEFORE B1`。
+详见 [B0.3 summary](../docs/B0.3_LAYOUT_INPUT.md)。
