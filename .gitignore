@@ -1,0 +1,44 @@
+# Large / binary design sources
+*.dwg
+*.skp
+*.3ds
+*.max
+*.blend
+
+# Video
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Raster / render outputs
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.tif
+*.tiff
+*.psd
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# Temporary CAD files
+*.bak
+*.sv$
+*.ac$
+*.dwl
+*.dwl2
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
