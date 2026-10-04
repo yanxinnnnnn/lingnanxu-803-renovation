@@ -25,6 +25,11 @@ files:
   # Canonical generated B0 artifacts; estimated and not for construction.
   base_cad: cad/LN803_BASE_B0_v0.1_20261004.dxf
   base_preview: artifacts/LN803_BASE_B0_v0.1_20261004_preview.png
+  # Separate provisional review layer; does not supersede canonical B0 geometry.
+  provisional_reference_data: data/b0_provisional_measurements.yaml
+  provisional_reference_cad: cad/LN803_REF_B0.2_provisional_20261004.dxf
+  provisional_reference_preview: artifacts/LN803_REF_B0.2_provisional_20261004_preview.png
+  onsite_survey_worksheet: measurements/onsite-survey-803.md
 
 pending_inputs:
   - official_floor_plan

@@ -104,6 +104,38 @@ DXF 使用固定元数据与 LF 行尾；预览使用 matplotlib 自带字体和
 Issue #1 的像素坐标原样保留，包括重叠与空隙。房间边界只是示意线，
 不代表实际墙厚、承重属性或施工尺寸；本阶段不补画门扇或家具。
 
+## B0.2 临时第三方参考与现场量房
+
+`measurement-ref-001` 是异地相似 118–121㎡ 样板间的第三方测量图，**不是 6 栋 803**。
+本层使用 `third_party_reference / provisional`，所有值均为 `pending_onsite_verification`，
+`subject_unit_match: false`，不可用于施工；不改变 B0.1 几何或像素标定。
+
+`data/b0_provisional_measurements.yaml` 消费已登记的 source manifest，并保留 Issue #3
+明确提供的三项 reported totals 与十个可读面积。房间对应全部未决；线性尺寸集合为空。
+不 OCR 模糊数值、不按面积猜房间、不用异地面积重新缩放 B0。
+
+在 `uv sync` 后执行：
+
+```bash
+uv run python scripts/validate_provisional_measurements.py
+uv run python scripts/generate_provisional_overlay.py
+uv run python scripts/validate_provisional_measurements.py --dxf cad/LN803_REF_B0.2_provisional_20261004.dxf
+uv run pytest
+git status --short
+```
+
+新生成文件为 `cad/LN803_REF_B0.2_provisional_20261004.dxf` 与
+`artifacts/LN803_REF_B0.2_provisional_20261004_preview.png`。
+原图实体保持不变；紫色 `A-REF-PROVISIONAL` 图层在平面旁列出参考值，不给未决面积定位。
+DXF 与 PNG 同时显示第三方 provisional 警告及原 B0 禁止施工警告。
+原有 B0.1 命令继续有效，完整生成/测试周期保持已提交 artifacts 不变。
+
+下次量房使用 [803 现场工作表](measurements/onsite-survey-803.md)，优先记录整体跨度、净高、
+每个空间净尺寸、门窗与过渡开口，再记录柜位及可观察设备位置，现场尺寸统一为 mm。
+有 803 日期/方法/照片证据的实测结果另建 `onsite_measured` 记录；官方资料另记 `official`。
+不要改写第三方记录的 provenance。经复核与验收后的 B1 才替代 provisional / estimated 值；
+B0.1、B0.2 和第三方原始来源持续保留。详见 [Measurements](measurements/README.md)。
+
 ## 版本规范
 
 ```text

@@ -67,8 +67,14 @@ Planned after the L1 layout baseline:
 Geometry must distinguish provenance:
 
 - `estimated`
+- `third_party_reference` — provisional similar-unit data, not subject-unit measurements
 - `official`
+- `onsite_measured` — evidence recorded on site for the subject unit
 - `measured`
+
+For B0.2, use `onsite_measured / official > third_party_reference > estimated` as the
+source hierarchy. The older generic `measured` category must not be used to promote
+third-party references to subject-unit measurements. Keep B0.1 geometry `estimated`.
 
 Every geometry record that can affect physical design should eventually support:
 - unique id
