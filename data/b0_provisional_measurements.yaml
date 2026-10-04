@@ -1,0 +1,148 @@
+# Issue #3 supplies the readable values; no OCR or room-position inference.
+source_id: measurement-ref-001
+baseline: B0
+version: '0.2'
+artifact_date: '20261004'
+provenance: third_party_reference
+confidence: provisional
+subject_unit_match: false
+construction_ready: false
+value_reference: https://github.com/yanxinnnnnn/lingnanxu-803-renovation/issues/3
+warning: 'THIRD-PARTY PROVISIONAL REFERENCE - VERIFY ON SITE BEFORE B1'
+notes:
+  - 'Similar 118–121 sqm unit / remote showflat, not building 6 unit 803.'
+  - 'Drawing states measurements are for reference; actual conditions prevail.'
+  - 'Source totals are reported claims, not areas measured for 803; do not reconcile or sum unresolved zones.'
+  - 'Area labels identify list entries in Issue #3, not positions or rooms in the source drawing.'
+  - 'No confidently readable linear dimensions supplied; collect them in the onsite worksheet.'
+
+reported_totals:
+  measured_internal_area_sqm:
+    value: 124.518
+    unit: sqm
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    source_label: Reported internal / usable area of reference unit
+  building_area_sqm:
+    value: 118.4494
+    unit: sqm
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    source_label: Reported building area of reference unit
+  reported_space_efficiency_percent:
+    value: 105.12
+    unit: percent
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    source_label: Reported space efficiency of reference unit
+
+areas:
+  - id: ref_area_01
+    source_label: Issue 3 readable area 01
+    value: 5.143
+    unit: sqm
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    mapping_status: unresolved
+    room_id: null
+  - id: ref_area_02
+    source_label: Issue 3 readable area 02
+    value: 2.202
+    unit: sqm
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    mapping_status: unresolved
+    room_id: null
+  - id: ref_area_03
+    source_label: Issue 3 readable area 03
+    value: 2.515
+    unit: sqm
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    mapping_status: unresolved
+    room_id: null
+  - id: ref_area_04
+    source_label: Issue 3 readable area 04
+    value: 7.743
+    unit: sqm
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    mapping_status: unresolved
+    room_id: null
+  - id: ref_area_05
+    source_label: Issue 3 readable area 05
+    value: 7.029
+    unit: sqm
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    mapping_status: unresolved
+    room_id: null
+  - id: ref_area_06
+    source_label: Issue 3 readable area 06
+    value: 24.345
+    unit: sqm
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    mapping_status: unresolved
+    room_id: null
+  - id: ref_area_07
+    source_label: Issue 3 readable area 07
+    value: 13.398
+    unit: sqm
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    mapping_status: unresolved
+    room_id: null
+  - id: ref_area_08
+    source_label: Issue 3 readable area 08
+    value: 10.419
+    unit: sqm
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    mapping_status: unresolved
+    room_id: null
+  - id: ref_area_09
+    source_label: Issue 3 readable area 09
+    value: 11.326
+    unit: sqm
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    mapping_status: unresolved
+    room_id: null
+  - id: ref_area_10
+    source_label: Issue 3 readable area 10
+    value: 15.139
+    unit: sqm
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    mapping_status: unresolved
+    room_id: null
+
+# Deliberately empty: no dimension is inferred from area, pixel scale, or blurry text.
+linear_dimensions: []
