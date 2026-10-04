@@ -13,3 +13,12 @@ for the full generation and validation cycle.
 
 All B0 geometry is estimated. No generated output is construction-ready.
 B1 verified dimensions will supersede B0.
+
+Issue #3 adds separate entry points without changing the B0.1 pipeline:
+
+- `validate_provisional_measurements.py`: validate B0.2 reference provenance and registered source; `--dxf` also checks the saved overlay, warning and unchanged B0 entities.
+- `generate_provisional_overlay.py`: generate a separate DXF/PNG with purple `A-REF-PROVISIONAL` annotations. Original B0 files and inputs cannot be used as output paths.
+- `provisional_measurements.py`: small reference model, annotation schedule and overlay validation.
+
+See [Measurements](../measurements/README.md) for commands and the onsite worksheet.
+The new layer uses `third_party_reference / provisional`, pending onsite verification.

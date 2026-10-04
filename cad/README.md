@@ -62,7 +62,7 @@ y_mm = (1400 - y_px) * 12.5
 ```
 
 DXF 存储单位是 mm，但这些值仅为估算的 millimetre-like CAD units。
-所有 metadata、source、标定与几何 provenance 必须为 `estimated`；本 B0 schema
+所有 B0.1 metadata、source、标定与几何 provenance 必须为 `estimated`；本 B0.1 schema
 不接受 `official` 或 `measured` source。未来经验证的资料需要单独扩展 schema/baseline。
 营销资料/样板间视频的背景索引仍由 `references/source-manifest.yaml` 维护；
 本次 geometry 的直接来源为 Issue #1 的 visual trace，没有从视频推导新尺寸。
@@ -85,3 +85,21 @@ DXF 存储单位是 mm，但这些值仅为估算的 millimetre-like CAD units�
 无需系统中文字体或 CAD GUI；中文名称保留在 YAML 和 DXF TEXT 中。
 
 精度层级：B0 为视觉追踪/估算；B1 为官方图纸或现场量房验证；L1+ 基于 B1 设计。
+
+## B0.2 独立参考 overlay
+
+`LN803_REF_B0.2_provisional_20261004.dxf` 从 canonical B0.1 DXF 加入独立
+`A-REF-PROVISIONAL` 紫色注记层；原有几何、中文标签与 B0 警告不改动。
+第三方 `measurement-ref-001` 不属于 803，所有参考项均待现场验证，不能用于施工。
+未决面积只显示在平面旁的 schedule，不映射到房间、不重新标定 B0。
+参考注记使用独立 `LN803_REF_PROVISIONAL` XDATA，不会携带 B0 `estimated` entity 标签。
+
+```bash
+uv run python scripts/validate_provisional_measurements.py
+uv run python scripts/generate_provisional_overlay.py
+uv run python scripts/validate_provisional_measurements.py --dxf cad/LN803_REF_B0.2_provisional_20261004.dxf
+```
+
+预览为 `artifacts/LN803_REF_B0.2_provisional_20261004_preview.png`；
+overlay / preview 均显示 `THIRD-PARTY PROVISIONAL REFERENCE - VERIFY ON SITE BEFORE B1`。
+字段与 B1 交接步骤见 [Measurements](../measurements/README.md)。

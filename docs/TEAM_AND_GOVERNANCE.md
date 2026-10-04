@@ -88,8 +88,15 @@ When sources disagree, use the highest available authority:
 1. verified on-site measurement / approved construction documentation
 2. official developer / architectural documentation
 3. structured project data derived from verified sources
-4. marketing plan / showroom video
-5. visual estimation
+4. provisional third-party reference for a similar unit (`third_party_reference`)
+5. marketing plan / showroom video
+6. visual estimation
+
+B0.2 third-party records remain provisional and pending onsite verification, with
+`subject_unit_match: false`. New 803 evidence must be recorded separately as
+`onsite_measured` (or applicable `official` documentation), never by changing the
+provenance of a third-party record. B1 replaces layout inputs after review and acceptance;
+preserve the B0.1/B0.2 source and artifact history.
 
 Every dimension or geometry assumption should carry enough provenance to know which level it came from.
 
