@@ -1,0 +1,41 @@
+project:
+  name: 岭南序803装修
+  code: LN803
+  building: 6栋
+  unit: 803
+  gross_area_sqm: 118
+  repository: yanxinnnnnn/lingnanxu-803-renovation
+
+baseline:
+  current: B0
+  title: Marketing / showroom reference
+  accuracy: estimated
+  sources:
+    - marketing_floorplan_photo
+    - handover_showroom_video
+  construction_ready: false
+
+design:
+  layout_status: undecided
+  style_status: undecided
+  budget_status: undecided
+  three_d_status: not_started
+
+files:
+  base_cad_expected: cad/LN803_BASE_B0_v0.1_20261004.dxf
+
+pending_inputs:
+  - official_floor_plan
+  - structural_information
+  - verified_wall_dimensions
+  - door_and_window_dimensions
+  - plumbing_points
+  - electrical_points
+  - on_site_measurement
+
+rules:
+  - keep_raw_sources_immutable
+  - separate_estimated_and_measured_dimensions
+  - freeze_major_decisions_as_baselines
+  - record_major_design_decisions_in_adrs
+  - never_use_B0_for_construction
