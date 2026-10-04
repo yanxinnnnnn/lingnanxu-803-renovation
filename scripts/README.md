@@ -22,3 +22,11 @@ Issue #3 adds separate entry points without changing the B0.1 pipeline:
 
 See [Measurements](../measurements/README.md) for commands and the onsite worksheet.
 The new layer uses `third_party_reference / provisional`, pending onsite verification.
+
+Issue #5 adds independent B0.3 entry points:
+
+- `validate_layout_input.py`: enforce the exact Issue-authorized semantic associations, area-only constraints, unresolved states and record provenance; `--dxf` verifies the saved overlay.
+- `generate_layout_input.py`: generate separate B0.3 DXF/PNG with high/medium/unresolved styling and no new geometric/dimension entities.
+- `layout_input.py`: the small semantic model and review annotation contract. B0.2 transcription stays unchanged.
+
+See [B0.3 summary](../docs/B0.3_LAYOUT_INPUT.md) for commands, conceptual use and onsite questions.
