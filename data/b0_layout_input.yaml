@@ -1,0 +1,299 @@
+# Human-reviewed semantic mappings from Issue #5; no geometry or length calibration.
+baseline: B0.3
+status: provisional_layout_input
+provenance: third_party_reference
+confidence: provisional
+verification_status: pending_onsite_verification
+construction_ready: false
+subject_unit_match: false
+artifact_date: '20261004'
+base_geometry: data/b0_floorplan.yaml
+reference_measurements: data/b0_provisional_measurements.yaml
+source_id: measurement-ref-001
+mapping_authority: https://github.com/yanxinnnnnn/lingnanxu-803-renovation/issues/5
+warning: 'PROVISIONAL LAYOUT INPUT - VERIFY AGAINST 803 ONSITE MEASUREMENTS BEFORE B1'
+
+zone_mappings:
+  - reference_zone_id: ref_area_01
+    planning_zone_id: null
+    candidate_room_ids: []
+    mapping_status: unresolved
+    mapping_confidence: low
+    area_sqm: 5.143
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    rationale: 'Issue #5 leaves this source area unresolved; no room assignment by area matching.'
+  - reference_zone_id: ref_area_02
+    planning_zone_id: null
+    candidate_room_ids: []
+    mapping_status: unresolved
+    mapping_confidence: low
+    area_sqm: 2.202
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    rationale: 'Issue #5 leaves this source area unresolved; no room assignment by area matching.'
+  - reference_zone_id: ref_area_03
+    planning_zone_id: null
+    candidate_room_ids: []
+    mapping_status: unresolved
+    mapping_confidence: low
+    area_sqm: 2.515
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    rationale: 'Issue #5 leaves this source area unresolved; no room assignment by area matching.'
+  - reference_zone_id: ref_area_04
+    planning_zone_id: corridor_entry
+    candidate_room_ids: [corridor_entry]
+    mapping_status: candidate
+    mapping_confidence: medium
+    area_sqm: 7.743
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    rationale: 'Issue #5 retains corridor_entry as a medium-confidence candidate; exact entry/corridor boundaries await onsite verification.'
+  - reference_zone_id: ref_area_05
+    planning_zone_id: flex_tea_room
+    candidate_room_ids: [flex_tea_room]
+    mapping_status: mapped
+    mapping_confidence: high
+    area_sqm: 7.029
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    rationale: 'Issue #5 authorizes the semantic flex/multi-function mapping, without verifying exact room boundaries.'
+  - reference_zone_id: ref_area_06
+    planning_zone_id: master_suite_reference
+    candidate_room_ids: [master_bedroom, walk_in_closet, master_bathroom]
+    mapping_status: candidate
+    mapping_confidence: medium
+    area_sqm: 24.345
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    rationale: 'Issue #5 identifies a suite-level reference zone. Exact inclusion boundary is unresolved; do not assign the total to master_bedroom alone or subdivide it.'
+  - reference_zone_id: ref_area_07
+    planning_zone_id: bedroom_south
+    candidate_room_ids: [bedroom_south]
+    mapping_status: mapped
+    mapping_confidence: high
+    area_sqm: 13.398
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    rationale: 'Issue #5 authorizes the distinct south-bedroom semantic mapping, without verifying exact boundaries.'
+  - reference_zone_id: ref_area_08
+    planning_zone_id: kitchen
+    candidate_room_ids: [kitchen]
+    mapping_status: mapped
+    mapping_confidence: high
+    area_sqm: 10.419
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    rationale: 'Issue #5 authorizes kitchen as part of the broad public-zone sequence, without verifying clear spans.'
+  - reference_zone_id: ref_area_09
+    planning_zone_id: dining
+    candidate_room_ids: [dining]
+    mapping_status: mapped
+    mapping_confidence: high
+    area_sqm: 11.326
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    rationale: 'Issue #5 authorizes dining as part of the broad public-zone sequence, without verifying clear spans.'
+  - reference_zone_id: ref_area_10
+    planning_zone_id: living
+    candidate_room_ids: [living]
+    mapping_status: mapped
+    mapping_confidence: high
+    area_sqm: 15.139
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+    rationale: 'Issue #5 authorizes living as part of the broad public-zone sequence, without verifying glazing or usable spans.'
+
+topology_findings:
+  - id: public_zone_sequence
+    severity: info
+    affected_room_ids: [kitchen, dining, living]
+    description: 'Issue #5 human review reports that the reference appears to confirm the broad kitchen -> dining -> living sequence; this does not verify openings or lengths.'
+    onsite_question: 'Confirm actual public-zone wall faces, transitions and openings in 803.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: separate_flex_zone
+    severity: info
+    affected_room_ids: [flex_tea_room, kitchen, dining, living]
+    description: 'Issue #5 human review supports a separate flex/multi-function zone adjacent to the public area as a group; no direct adjacency to every public room is asserted.'
+    onsite_question: 'Which public space connects to the flex zone, and where are its actual transitions?'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: distinct_south_bedroom
+    severity: info
+    affected_room_ids: [bedroom_south]
+    description: 'Issue #5 human review supports a distinct south-bedroom zone; the area mapping is semantic, not a measured room envelope.'
+    onsite_question: 'Confirm south-bedroom clear width/depth, door corner offsets and window extent.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: master_suite_boundary
+    severity: review_required
+    affected_room_ids: [master_bedroom, walk_in_closet, master_bathroom]
+    description: '24.345 sqm is a master_suite_reference zone. Inclusion of bedroom, closet and bathroom remains unresolved; no allocation to a single room or subareas is justified.'
+    onsite_question: 'Which spaces are included in the suite zone, and where are their actual boundaries?'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: left_central_unresolved
+    severity: review_required
+    affected_room_ids: [utility, shoe_storage, entry_garden, service_balcony, bathroom_1, bathroom_2, corridor_entry]
+    description: 'Small service, bathroom and entry zones cannot be reliably mapped from the screenshot. 5.143 / 2.202 / 2.515 sqm remain unassigned; corridor is only a medium-confidence candidate.'
+    onsite_question: 'Record actual left/central room boundaries, entries and visible service zones; keep uncertain source associations unresolved.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: preserve_trace_geometry
+    severity: info
+    affected_room_ids: []
+    description: 'B0.1 polygons and calibration remain estimated and unchanged. Do not reshape, rescale or reconcile their areas to the reference totals.'
+    onsite_question: 'Use independent 803 evidence to reconstruct B1, preserving this source and B0 history.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: trace_flex_connection
+    severity: review_required
+    affected_room_ids: [flex_tea_room, dining, living]
+    description: 'Qualitative B0 trace check: flex has no shared polygon edge with dining or living (only corner contact with living). The reference public-zone connection cannot be reconstructed from these trace boundaries.'
+    onsite_question: 'Verify the real flex/public transition and opening; do not bridge the trace gap by reshaping B0.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: trace_corridor_overlaps
+    severity: review_required
+    affected_room_ids: [corridor_entry, bathroom_1, bathroom_2]
+    description: 'Qualitative B0 trace check: corridor_entry overlaps bathroom_1 and bathroom_2 polygons. These are estimated trace inconsistencies, not evidence of actual shared space.'
+    onsite_question: 'Measure corridor and bathroom wall faces separately; resolve the overlap in B1 from onsite evidence, not area matching.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+
+layout_constraints:
+  - id: area_flex
+    type: area
+    reference_zone_id: ref_area_05
+    room_ids: [flex_tea_room]
+    area_sqm: 7.029
+    description: 'Provisional conceptual area budget only; does not establish shape, net usable envelope or fit.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: area_south_bedroom
+    type: area
+    reference_zone_id: ref_area_07
+    room_ids: [bedroom_south]
+    area_sqm: 13.398
+    description: 'Provisional conceptual area budget only; furniture fit and clear spans await B1.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: area_kitchen
+    type: area
+    reference_zone_id: ref_area_08
+    room_ids: [kitchen]
+    area_sqm: 10.419
+    description: 'Provisional conceptual area budget only; no counter, appliance niche or fabrication dimensions.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: area_dining
+    type: area
+    reference_zone_id: ref_area_09
+    room_ids: [dining]
+    area_sqm: 11.326
+    description: 'Provisional conceptual area budget only; seating count and exact circulation depend on B1 spans.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: area_living
+    type: area
+    reference_zone_id: ref_area_10
+    room_ids: [living]
+    area_sqm: 15.139
+    description: 'Provisional conceptual area budget only; glazing and furniture clearance require onsite evidence.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: public_sequence
+    type: adjacency
+    room_ids: [kitchen, dining, living]
+    topology_finding_id: public_zone_sequence
+    description: 'Conceptual public-zone sequence only; not a verified shared opening or circulation width.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: flex_public_group
+    type: adjacency
+    room_ids: [flex_tea_room, kitchen, dining, living]
+    topology_finding_id: separate_flex_zone
+    description: 'Flex is near the public area as a group, not asserted adjacent to each listed room; exact connection is unknown.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: suite_inclusion_unknown
+    type: unknown
+    room_ids: [master_bedroom, walk_in_closet, master_bathroom]
+    topology_finding_id: master_suite_boundary
+    description: 'Master-suite inclusion boundaries unresolved; 24.345 sqm is not a master_bedroom area constraint.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: service_boundaries_unknown
+    type: unknown
+    room_ids: [utility, shoe_storage, entry_garden, service_balcony, bathroom_1, bathroom_2, corridor_entry]
+    topology_finding_id: left_central_unresolved
+    description: 'Service/bathroom/entry boundaries and the corridor candidate require onsite verification before dimensional layout work.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+  - id: openings_unknown
+    type: unknown
+    room_ids: []
+    topology_finding_id: preserve_trace_geometry
+    description: 'All opening widths, wall thicknesses, clear spans, curved glazing extents and construction dimensions await B1; no lengths are supplied.'
+    source_id: measurement-ref-001
+    provenance: third_party_reference
+    confidence: provisional
+    verification_status: pending_onsite_verification
+
+linear_dimensions: []
