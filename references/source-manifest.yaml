@@ -16,3 +16,29 @@ sources:
     notes:
       - Original source file retained unchanged.
       - Use as B0 visual evidence only; it does not provide verified construction dimensions.
+
+  - id: measurement-ref-001
+    filename: LN803_118sqm_remote_showflat_measurement_reference.jpg
+    type: third_party_measured_reference
+    baseline: B0
+    scope: 118sqm_similar_unit
+    original_filename: 118平异地样板间测量图.jpg
+    storage:
+      provider: google_drive
+      path: /Google Drive/lingnanxu-803-renovation/references/third-party-measurements/LN803_118sqm_remote_showflat_measurement_reference.jpg
+    sha256: fc2fdf49873acc0700290180373887c281955d7210b81e358bae75b68670e076
+    provenance: third_party_reference
+    confidence: provisional
+    purpose:
+      - provisional_dimension_reference
+      - spatial_proportion_reference
+      - onsite_measurement_planning
+    observed_text:
+      reported_measured_internal_area_sqm: 124.518
+      reported_building_area_sqm: 118.4494
+      reported_space_efficiency_percent: 105.12
+    notes:
+      - Source is a screenshot of a third-party measured drawing for a similar 118-121 sqm unit, not the subject unit 6栋803.
+      - The drawing itself states that measured data are for reference and actual conditions prevail.
+      - Do not promote any dimension from this source to official or onsite_measured.
+      - Use as provisional B0.2 calibration input only until 6栋803 is measured on site.
