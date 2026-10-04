@@ -15,7 +15,7 @@
 *.jpg
 *.jpeg
 *.png
-!artifacts/LN803_BASE_B0_v0.1_20261004_preview.png
+!artifacts/*.png
 *.webp
 *.tif
 *.tiff
