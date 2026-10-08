@@ -1,0 +1,16 @@
+{
+  "data/b0_floorplan.yaml": "cd2b5128833e871d2136c001b0b69db2605f3b3c4165e4b0be0feb0485869a0b",
+  "data/b0_provisional_measurements.yaml": "988886a81195d9c357b63c700939ef65f99d33dc458452d76e8b734062261a27",
+  "data/b0_layout_input.yaml": "5f1894dea1270e5698305f9f04bce45bdeca9b697dc011bd6c49ab95137a8ea3",
+  "data/space_program_v0.1.yaml": "136e533116b0eb5a2c2b4757f6b697209aee9967d8d5267386000ffd62327d97",
+  "docs/SPACE_PROGRAM_v0.1.md": "26282e6a6d441ae4c060e5a8327b84c16f5edf6b2d03dfb397e37bd4b76096c5",
+  "docs/B0.3_LAYOUT_INPUT.md": "aa58536e4342d479c7ddd71dc9c5576aa87633a85b9a345c642b81ffd2189282",
+  "references/source-manifest.yaml": "c7373f99f81ae4feb121fd2dc5902ab5d4f4638ec04d2021d0767a73fb5076f2",
+  "measurements/onsite-survey-803.md": "1eee16bde134453110759d42b6baeb5a9b6db0eefe96573755c79461498e21dc",
+  "cad/LN803_BASE_B0_v0.1_20261004.dxf": "adead70d9e14b98ff3cf44466284c9ca4cf5fee5eb48110530d6a90be0fd5ded",
+  "artifacts/LN803_BASE_B0_v0.1_20261004_preview.png": "bf0b1094b08b596df3d2a4af53a375ad4336b992546993db942e6743eb7eff00",
+  "cad/LN803_REF_B0.2_provisional_20261004.dxf": "70e3faf6733d5b7fa227060f8852a7efde59aeda3f1be643b252caaef185a056",
+  "artifacts/LN803_REF_B0.2_provisional_20261004_preview.png": "0b460d185707ee3a0e5128731d18145963d4245b26ff5f485c89a5651f56dcde",
+  "cad/LN803_LAYOUT_INPUT_B0.3_provisional_20261004.dxf": "7ff0b317ed6881287cc0588dd1283a8f83eab91a257a70589d6050e0b5e6121e",
+  "artifacts/LN803_LAYOUT_INPUT_B0.3_provisional_20261004_preview.png": "84b7ea9bee84bba36a92ed21666363dd8df3dbe849d88eaead12e419abbfd172"
+}
