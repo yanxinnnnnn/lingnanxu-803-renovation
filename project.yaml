@@ -18,7 +18,9 @@ baseline:
 design:
   requirements_version: "0.1"
   requirements_discovery_status: complete
-  layout_status: provisional_input_ready
+  layout_status: concept_variants_ready
+  b1_status: pending
+  l1_status: pending_not_selected
   style_status: undecided
   budget_status: undecided
   three_d_status: not_started
@@ -39,6 +41,15 @@ files:
   layout_input_cad: cad/LN803_LAYOUT_INPUT_B0.3_provisional_20261004.dxf
   layout_input_preview: artifacts/LN803_LAYOUT_INPUT_B0.3_provisional_20261004_preview.png
   layout_input_summary: docs/B0.3_LAYOUT_INPUT.md
+  # Provisional uses over unchanged B0; no layout selected or approved for construction.
+  layout_concepts_data: data/layout_concepts_v0.1.yaml
+  layout_concepts_comparison: docs/LAYOUT_CONCEPTS_v0.1.md
+  layout_a_cad: cad/LN803_LAYOUT_A_B0_v0.1_20261008.dxf
+  layout_a_preview: artifacts/LN803_LAYOUT_A_B0_v0.1_20261008_preview.png
+  layout_b_cad: cad/LN803_LAYOUT_B_B0_v0.1_20261008.dxf
+  layout_b_preview: artifacts/LN803_LAYOUT_B_B0_v0.1_20261008_preview.png
+  layout_c_cad: cad/LN803_LAYOUT_C_B0_v0.1_20261008.dxf
+  layout_c_preview: artifacts/LN803_LAYOUT_C_B0_v0.1_20261008_preview.png
 
 pending_inputs:
   - official_floor_plan

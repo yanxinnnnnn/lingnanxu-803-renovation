@@ -30,3 +30,14 @@ Issue #5 adds independent B0.3 entry points:
 - `layout_input.py`: the small semantic model and review annotation contract. B0.2 transcription stays unchanged.
 
 See [B0.3 summary](../docs/B0.3_LAYOUT_INPUT.md) for commands, conceptual use and onsite questions.
+
+Issue #9 adds a separate concept pipeline over the unchanged B0 trace:
+
+- `layout_concepts.py`: room-role and strategy contract, source-checked requirement labels, TEXT-only DXF validation.
+- `generate_layout_concepts.py`: separate deterministic Layout A/B/C DXFs and PNG review sheets; `--concept` selects one and `--output-dir` selects an isolated root.
+- `validate_layout_concepts.py`: validates all concepts; `--artifacts` also checks saved DXFs and PNGs.
+
+See [Layout comparison](../docs/LAYOUT_CONCEPTS_v0.1.md) for regeneration commands,
+strategies, assumptions and B1 blockers. Prior baselines and unrelated existing output
+files are protected. Concept labels are uses only; no geometry, dimensions or exact
+furniture-fit claims are added. B1/L1 remain pending; Product Owner selects after review.

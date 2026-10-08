@@ -225,7 +225,8 @@ def test_project_and_planning_summary_ready_without_b1_or_l1():
     project = yaml.safe_load((ROOT / "project.yaml").read_text(encoding="utf-8"))
     assert project["baseline"]["current"] == "B0"
     assert project["baseline"]["construction_ready"] is False
-    assert project["design"]["layout_status"] == "provisional_input_ready"
+    # Issue #9 advances readiness while retaining this provisional input and B0.
+    assert project["design"]["layout_status"] == "concept_variants_ready"
     assert project["files"]["layout_input_data"] == "data/b0_layout_input.yaml"
     summary = (ROOT / project["files"]["layout_input_summary"]).read_text(encoding="utf-8")
     assert all(term in summary for term in ("24.345", "5.143", "2.202", "2.515", "B1", "L1", "ONSITE"))

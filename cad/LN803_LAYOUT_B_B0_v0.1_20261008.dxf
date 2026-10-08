@@ -1,0 +1,9838 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1024
+  9
+$ACADMAINTVER
+ 70
+6
+  9
+$DWGCODEPAGE
+  3
+ANSI_1252
+  9
+$LASTSAVEDBY
+  1
+ezdxf
+  9
+$INSBASE
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$EXTMIN
+ 10
+1e+20
+ 20
+1e+20
+ 30
+1e+20
+  9
+$EXTMAX
+ 10
+-1e+20
+ 20
+-1e+20
+ 30
+-1e+20
+  9
+$LIMMIN
+ 10
+0.0
+ 20
+0.0
+  9
+$LIMMAX
+ 10
+420.0
+ 20
+297.0
+  9
+$ORTHOMODE
+ 70
+0
+  9
+$REGENMODE
+ 70
+1
+  9
+$FILLMODE
+ 70
+1
+  9
+$QTEXTMODE
+ 70
+0
+  9
+$MIRRTEXT
+ 70
+1
+  9
+$LTSCALE
+ 40
+1.0
+  9
+$ATTMODE
+ 70
+1
+  9
+$TEXTSIZE
+ 40
+2.5
+  9
+$TRACEWID
+ 40
+1.0
+  9
+$TEXTSTYLE
+  7
+Standard
+  9
+$CLAYER
+  8
+0
+  9
+$CELTYPE
+  6
+ByLayer
+  9
+$CECOLOR
+ 62
+256
+  9
+$CELTSCALE
+ 40
+1.0
+  9
+$DISPSILH
+ 70
+0
+  9
+$DIMSCALE
+ 40
+1.0
+  9
+$DIMASZ
+ 40
+2.5
+  9
+$DIMEXO
+ 40
+0.625
+  9
+$DIMDLI
+ 40
+3.75
+  9
+$DIMRND
+ 40
+0.0
+  9
+$DIMDLE
+ 40
+0.0
+  9
+$DIMEXE
+ 40
+1.25
+  9
+$DIMTP
+ 40
+0.0
+  9
+$DIMTM
+ 40
+0.0
+  9
+$DIMTXT
+ 40
+2.5
+  9
+$DIMCEN
+ 40
+2.5
+  9
+$DIMTSZ
+ 40
+0.0
+  9
+$DIMTOL
+ 70
+0
+  9
+$DIMLIM
+ 70
+0
+  9
+$DIMTIH
+ 70
+0
+  9
+$DIMTOH
+ 70
+0
+  9
+$DIMSE1
+ 70
+0
+  9
+$DIMSE2
+ 70
+0
+  9
+$DIMTAD
+ 70
+1
+  9
+$DIMZIN
+ 70
+8
+  9
+$DIMBLK
+  1
+
+  9
+$DIMASO
+ 70
+1
+  9
+$DIMSHO
+ 70
+1
+  9
+$DIMPOST
+  1
+
+  9
+$DIMAPOST
+  1
+
+  9
+$DIMALT
+ 70
+0
+  9
+$DIMALTD
+ 70
+3
+  9
+$DIMALTF
+ 40
+0.03937007874
+  9
+$DIMLFAC
+ 40
+1.0
+  9
+$DIMTOFL
+ 70
+1
+  9
+$DIMTVP
+ 40
+0.0
+  9
+$DIMTIX
+ 70
+0
+  9
+$DIMSOXD
+ 70
+0
+  9
+$DIMSAH
+ 70
+0
+  9
+$DIMBLK1
+  1
+
+  9
+$DIMBLK2
+  1
+
+  9
+$DIMSTYLE
+  2
+ISO-25
+  9
+$DIMCLRD
+ 70
+0
+  9
+$DIMCLRE
+ 70
+0
+  9
+$DIMCLRT
+ 70
+0
+  9
+$DIMTFAC
+ 40
+1.0
+  9
+$DIMGAP
+ 40
+0.625
+  9
+$DIMJUST
+ 70
+0
+  9
+$DIMSD1
+ 70
+0
+  9
+$DIMSD2
+ 70
+0
+  9
+$DIMTOLJ
+ 70
+0
+  9
+$DIMTZIN
+ 70
+8
+  9
+$DIMALTZ
+ 70
+0
+  9
+$DIMALTTZ
+ 70
+0
+  9
+$DIMUPT
+ 70
+0
+  9
+$DIMDEC
+ 70
+2
+  9
+$DIMTDEC
+ 70
+2
+  9
+$DIMALTU
+ 70
+2
+  9
+$DIMALTTD
+ 70
+3
+  9
+$DIMTXSTY
+  7
+Standard
+  9
+$DIMAUNIT
+ 70
+0
+  9
+$DIMADEC
+ 70
+0
+  9
+$DIMALTRND
+ 40
+0.0
+  9
+$DIMAZIN
+ 70
+0
+  9
+$DIMDSEP
+ 70
+44
+  9
+$DIMATFIT
+ 70
+3
+  9
+$DIMFRAC
+ 70
+0
+  9
+$DIMLDRBLK
+  1
+
+  9
+$DIMLUNIT
+ 70
+2
+  9
+$DIMLWD
+ 70
+-2
+  9
+$DIMLWE
+ 70
+-2
+  9
+$DIMTMOVE
+ 70
+0
+  9
+$DIMFXL
+ 40
+1.0
+  9
+$DIMFXLON
+ 70
+0
+  9
+$DIMJOGANG
+ 40
+0.785398163397
+  9
+$DIMTFILL
+ 70
+0
+  9
+$DIMTFILLCLR
+ 70
+0
+  9
+$DIMARCSYM
+ 70
+0
+  9
+$DIMLTYPE
+  6
+
+  9
+$DIMLTEX1
+  6
+
+  9
+$DIMLTEX2
+  6
+
+  9
+$DIMTXTDIRECTION
+ 70
+0
+  9
+$LUNITS
+ 70
+2
+  9
+$LUPREC
+ 70
+4
+  9
+$SKETCHINC
+ 40
+1.0
+  9
+$FILLETRAD
+ 40
+10.0
+  9
+$AUNITS
+ 70
+0
+  9
+$AUPREC
+ 70
+2
+  9
+$MENU
+  1
+.
+  9
+$ELEVATION
+ 40
+0.0
+  9
+$PELEVATION
+ 40
+0.0
+  9
+$THICKNESS
+ 40
+0.0
+  9
+$LIMCHECK
+ 70
+0
+  9
+$CHAMFERA
+ 40
+0.0
+  9
+$CHAMFERB
+ 40
+0.0
+  9
+$CHAMFERC
+ 40
+0.0
+  9
+$CHAMFERD
+ 40
+0.0
+  9
+$SKPOLY
+ 70
+0
+  9
+$TDCREATE
+ 40
+2451545.0
+  9
+$TDUCREATE
+ 40
+2451545.0
+  9
+$TDUPDATE
+ 40
+2451545.0
+  9
+$TDUUPDATE
+ 40
+2451545.0
+  9
+$TDINDWG
+ 40
+0.0
+  9
+$TDUSRTIMER
+ 40
+0.0
+  9
+$USRTIMER
+ 70
+1
+  9
+$ANGBASE
+ 50
+0.0
+  9
+$ANGDIR
+ 70
+0
+  9
+$PDMODE
+ 70
+0
+  9
+$PDSIZE
+ 40
+0.0
+  9
+$PLINEWID
+ 40
+0.0
+  9
+$SPLFRAME
+ 70
+0
+  9
+$SPLINETYPE
+ 70
+6
+  9
+$SPLINESEGS
+ 70
+8
+  9
+$HANDSEED
+  5
+CE
+  9
+$SURFTAB1
+ 70
+6
+  9
+$SURFTAB2
+ 70
+6
+  9
+$SURFTYPE
+ 70
+6
+  9
+$SURFU
+ 70
+6
+  9
+$SURFV
+ 70
+6
+  9
+$UCSBASE
+  2
+
+  9
+$UCSNAME
+  2
+
+  9
+$UCSORG
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSXDIR
+ 10
+1.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSYDIR
+ 10
+0.0
+ 20
+1.0
+ 30
+0.0
+  9
+$UCSORTHOREF
+  2
+
+  9
+$UCSORTHOVIEW
+ 70
+0
+  9
+$UCSORGTOP
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGBOTTOM
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGLEFT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGRIGHT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGFRONT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGBACK
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSBASE
+  2
+
+  9
+$PUCSNAME
+  2
+
+  9
+$PUCSORG
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSXDIR
+ 10
+1.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSYDIR
+ 10
+0.0
+ 20
+1.0
+ 30
+0.0
+  9
+$PUCSORTHOREF
+  2
+
+  9
+$PUCSORTHOVIEW
+ 70
+0
+  9
+$PUCSORGTOP
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGBOTTOM
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGLEFT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGRIGHT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGFRONT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGBACK
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$USERI1
+ 70
+0
+  9
+$USERI2
+ 70
+0
+  9
+$USERI3
+ 70
+0
+  9
+$USERI4
+ 70
+0
+  9
+$USERI5
+ 70
+0
+  9
+$USERR1
+ 40
+0.0
+  9
+$USERR2
+ 40
+0.0
+  9
+$USERR3
+ 40
+0.0
+  9
+$USERR4
+ 40
+0.0
+  9
+$USERR5
+ 40
+0.0
+  9
+$WORLDVIEW
+ 70
+1
+  9
+$SHADEDGE
+ 70
+3
+  9
+$SHADEDIF
+ 70
+70
+  9
+$TILEMODE
+ 70
+1
+  9
+$MAXACTVP
+ 70
+64
+  9
+$PINSBASE
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PLIMCHECK
+ 70
+0
+  9
+$PEXTMIN
+ 10
+1e+20
+ 20
+1e+20
+ 30
+1e+20
+  9
+$PEXTMAX
+ 10
+-1e+20
+ 20
+-1e+20
+ 30
+-1e+20
+  9
+$PLIMMIN
+ 10
+0.0
+ 20
+0.0
+  9
+$PLIMMAX
+ 10
+420.0
+ 20
+297.0
+  9
+$UNITMODE
+ 70
+0
+  9
+$VISRETAIN
+ 70
+1
+  9
+$PLINEGEN
+ 70
+0
+  9
+$PSLTSCALE
+ 70
+1
+  9
+$TREEDEPTH
+ 70
+3020
+  9
+$CMLSTYLE
+  2
+Standard
+  9
+$CMLJUST
+ 70
+0
+  9
+$CMLSCALE
+ 40
+20.0
+  9
+$PROXYGRAPHICS
+ 70
+1
+  9
+$MEASUREMENT
+ 70
+1
+  9
+$CELWEIGHT
+370
+-1
+  9
+$ENDCAPS
+280
+0
+  9
+$JOINSTYLE
+280
+0
+  9
+$LWDISPLAY
+290
+0
+  9
+$INSUNITS
+ 70
+4
+  9
+$HYPERLINKBASE
+  1
+
+  9
+$STYLESHEET
+  1
+
+  9
+$XEDIT
+290
+1
+  9
+$CEPSNTYPE
+380
+0
+  9
+$PSTYLEMODE
+290
+1
+  9
+$FINGERPRINTGUID
+  2
+{00000000-0000-0000-0000-000000000000}
+  9
+$VERSIONGUID
+  2
+{00000000-0000-0000-0000-000000000000}
+  9
+$EXTNAMES
+290
+1
+  9
+$PSVPSCALE
+ 40
+0.0
+  9
+$OLESTARTUP
+290
+0
+  9
+$SORTENTS
+280
+127
+  9
+$INDEXCTL
+280
+0
+  9
+$HIDETEXT
+280
+1
+  9
+$XCLIPFRAME
+280
+1
+  9
+$HALOGAP
+280
+0
+  9
+$OBSCOLOR
+ 70
+257
+  9
+$OBSLTYPE
+280
+0
+  9
+$INTERSECTIONDISPLAY
+280
+0
+  9
+$INTERSECTIONCOLOR
+ 70
+257
+  9
+$DIMASSOC
+280
+2
+  9
+$PROJECTNAME
+  1
+
+  9
+$CAMERADISPLAY
+290
+0
+  9
+$LENSLENGTH
+ 40
+50.0
+  9
+$CAMERAHEIGHT
+ 40
+0.0
+  9
+$STEPSPERSEC
+ 40
+24.0
+  9
+$STEPSIZE
+ 40
+100.0
+  9
+$3DDWFPREC
+ 40
+2.0
+  9
+$PSOLWIDTH
+ 40
+0.005
+  9
+$PSOLHEIGHT
+ 40
+0.08
+  9
+$LOFTANG1
+ 40
+1.570796326795
+  9
+$LOFTANG2
+ 40
+1.570796326795
+  9
+$LOFTMAG1
+ 40
+0.0
+  9
+$LOFTMAG2
+ 40
+0.0
+  9
+$LOFTPARAM
+ 70
+7
+  9
+$LOFTNORMALS
+280
+1
+  9
+$LATITUDE
+ 40
+37.795
+  9
+$LONGITUDE
+ 40
+-122.394
+  9
+$NORTHDIRECTION
+ 40
+0.0
+  9
+$TIMEZONE
+ 70
+-8000
+  9
+$LIGHTGLYPHDISPLAY
+280
+1
+  9
+$TILEMODELIGHTSYNCH
+280
+1
+  9
+$CMATERIAL
+347
+20
+  9
+$SOLIDHIST
+280
+0
+  9
+$SHOWHIST
+280
+1
+  9
+$DWFFRAME
+280
+2
+  9
+$DGNFRAME
+280
+2
+  9
+$REALWORLDSCALE
+290
+1
+  9
+$INTERFERECOLOR
+ 62
+256
+  9
+$CSHADOW
+280
+0
+  9
+$SHADOWPLANELOCATION
+ 40
+0.0
+  0
+ENDSEC
+  0
+SECTION
+  2
+CLASSES
+  0
+CLASS
+  1
+ACDBPLACEHOLDER
+  2
+AcDbPlaceHolder
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+LAYOUT
+  2
+AcDbLayout
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+ACDBDICTIONARYWDFLT
+  2
+AcDbDictionaryWithDefault
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+SUN
+  2
+AcDbSun
+  3
+SCENEOE
+ 90
+1153
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+VISUALSTYLE
+  2
+AcDbVisualStyle
+  3
+ObjectDBX Classes
+ 90
+4095
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+MATERIAL
+  2
+AcDbMaterial
+  3
+ObjectDBX Classes
+ 90
+1153
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+SCALE
+  2
+AcDbScale
+  3
+ObjectDBX Classes
+ 90
+1153
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+TABLESTYLE
+  2
+AcDbTableStyle
+  3
+ObjectDBX Classes
+ 90
+4095
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+MLEADERSTYLE
+  2
+AcDbMLeaderStyle
+  3
+ACDB_MLEADERSTYLE_CLASS
+ 90
+4095
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+DICTIONARYVAR
+  2
+AcDbDictionaryVar
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+CELLSTYLEMAP
+  2
+AcDbCellStyleMap
+  3
+ObjectDBX Classes
+ 90
+1152
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+MENTALRAYRENDERSETTINGS
+  2
+AcDbMentalRayRenderSettings
+  3
+SCENEOE
+ 90
+1024
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+ACDBDETAILVIEWSTYLE
+  2
+AcDbDetailViewStyle
+  3
+ObjectDBX Classes
+ 90
+1025
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+ACDBSECTIONVIEWSTYLE
+  2
+AcDbSectionViewStyle
+  3
+ObjectDBX Classes
+ 90
+1025
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+RASTERVARIABLES
+  2
+AcDbRasterVariables
+  3
+ISM
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+VPORT
+  5
+8
+330
+0
+100
+AcDbSymbolTable
+ 70
+1
+  0
+VPORT
+  5
+23
+330
+8
+100
+AcDbSymbolTableRecord
+100
+AcDbViewportTableRecord
+  2
+*Active
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 11
+1.0
+ 21
+1.0
+ 12
+0.0
+ 22
+0.0
+ 13
+0.0
+ 23
+0.0
+ 14
+0.5
+ 24
+0.5
+ 15
+0.5
+ 25
+0.5
+ 16
+0.0
+ 26
+0.0
+ 36
+1.0
+ 17
+0.0
+ 27
+0.0
+ 37
+0.0
+ 40
+1000.0
+ 41
+1.34
+ 42
+50.0
+ 43
+0.0
+ 44
+0.0
+ 50
+0.0
+ 51
+0.0
+ 71
+0
+ 72
+1000
+ 73
+1
+ 74
+3
+ 75
+0
+ 76
+0
+ 77
+0
+ 78
+0
+281
+0
+ 65
+0
+146
+0.0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LTYPE
+  5
+2
+330
+0
+100
+AcDbSymbolTable
+ 70
+3
+  0
+LTYPE
+  5
+24
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ByBlock
+ 70
+0
+  3
+
+ 72
+65
+ 73
+0
+ 40
+0.0
+  0
+LTYPE
+  5
+25
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ByLayer
+ 70
+0
+  3
+
+ 72
+65
+ 73
+0
+ 40
+0.0
+  0
+LTYPE
+  5
+26
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+Continuous
+ 70
+0
+  3
+
+ 72
+65
+ 73
+0
+ 40
+0.0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+  5
+1
+330
+0
+100
+AcDbSymbolTable
+ 70
+14
+  0
+LAYER
+  5
+27
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+0
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+28
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+Defpoints
+ 70
+0
+ 62
+7
+  6
+Continuous
+290
+0
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+30
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+A-WALL-EXT
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+31
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+A-WALL-INT
+ 70
+0
+ 62
+8
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+32
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+A-GLAZ
+ 70
+0
+ 62
+4
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+33
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+A-DOOR
+ 70
+0
+ 62
+3
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+34
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+A-FURN
+ 70
+0
+ 62
+9
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+35
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+A-ROOM
+ 70
+0
+ 62
+2
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+36
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+A-NOTE
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+37
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+A-UNVERIFIED
+ 70
+0
+ 62
+1
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+6B
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+A-CONCEPT-ROLE
+ 70
+0
+ 62
+3
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+6C
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+A-CONCEPT-ZONE
+ 70
+0
+ 62
+5
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+6D
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+A-CONCEPT-PET
+ 70
+0
+ 62
+6
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+6E
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+A-CONCEPT-NOTE
+ 70
+0
+ 62
+1
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+ENDTAB
+  0
+TABLE
+  2
+STYLE
+  5
+5
+330
+0
+100
+AcDbSymbolTable
+ 70
+1
+  0
+STYLE
+  5
+29
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbTextStyleTableRecord
+  2
+Standard
+ 70
+0
+ 40
+0.0
+ 41
+1.0
+ 50
+0.0
+ 71
+0
+ 42
+2.5
+  3
+txt
+  4
+
+  0
+ENDTAB
+  0
+TABLE
+  2
+VIEW
+  5
+7
+330
+0
+100
+AcDbSymbolTable
+ 70
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+UCS
+  5
+6
+330
+0
+100
+AcDbSymbolTable
+ 70
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+APPID
+  5
+3
+330
+0
+100
+AcDbSymbolTable
+ 70
+5
+  0
+APPID
+  5
+2A
+330
+3
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+ACAD
+ 70
+0
+  0
+APPID
+  5
+2F
+330
+3
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+LN803_B0
+ 70
+0
+  0
+APPID
+  5
+67
+330
+3
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+HATCHBACKGROUNDCOLOR
+ 70
+0
+  0
+APPID
+  5
+68
+330
+3
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+EZDXF
+ 70
+0
+  0
+APPID
+  5
+6A
+330
+3
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+LN803_CONCEPT
+ 70
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+DIMSTYLE
+  5
+4
+330
+0
+100
+AcDbSymbolTable
+ 70
+1
+100
+AcDbDimStyleTable
+  0
+DIMSTYLE
+105
+2B
+330
+4
+100
+AcDbSymbolTableRecord
+100
+AcDbDimStyleTableRecord
+  2
+Standard
+ 70
+0
+ 40
+1.0
+ 41
+2.5
+ 42
+0.625
+ 43
+3.75
+ 44
+1.25
+ 45
+0.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+2.5
+140
+2.5
+141
+2.5
+142
+0.0
+143
+0.03937007874
+144
+1.0
+145
+0.0
+146
+1.0
+147
+0.625
+148
+0.0
+ 69
+0
+ 70
+0
+ 71
+0
+ 72
+0
+ 73
+0
+ 74
+0
+ 75
+0
+ 76
+0
+ 77
+1
+ 78
+8
+ 79
+3
+170
+0
+171
+3
+172
+1
+173
+0
+174
+0
+175
+0
+176
+0
+177
+0
+178
+0
+179
+2
+271
+2
+272
+2
+273
+2
+274
+3
+275
+0
+276
+0
+277
+2
+278
+44
+279
+0
+280
+0
+281
+0
+282
+0
+283
+0
+284
+8
+285
+0
+286
+0
+288
+0
+289
+3
+290
+0
+371
+-2
+372
+-2
+  0
+ENDTAB
+  0
+TABLE
+  2
+BLOCK_RECORD
+  5
+9
+330
+0
+100
+AcDbSymbolTable
+ 70
+2
+  0
+BLOCK_RECORD
+  5
+17
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*Model_Space
+340
+1A
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1B
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*Paper_Space
+340
+1E
+ 70
+0
+280
+1
+281
+0
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+BLOCK
+  5
+18
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*Model_Space
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+*Model_Space
+  1
+
+  0
+ENDBLK
+  5
+19
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1C
+330
+1B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*Paper_Space
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+*Paper_Space
+  1
+
+  0
+ENDBLK
+  5
+1D
+330
+1B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+LWPOLYLINE
+  5
+38
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-EXT
+100
+AcDbPolyline
+ 90
+17
+ 70
+1
+ 10
+4650.0
+ 20
+11250.0
+ 10
+19375.0
+ 20
+11250.0
+ 10
+19375.0
+ 20
+7500.0
+ 10
+15500.0
+ 20
+7500.0
+ 10
+15500.0
+ 20
+5000.0
+ 10
+19375.0
+ 20
+5000.0
+ 10
+19375.0
+ 20
+0.0
+ 10
+9300.0
+ 20
+0.0
+ 10
+9300.0
+ 20
+625.0
+ 10
+4650.0
+ 20
+625.0
+ 10
+4650.0
+ 20
+3125.0
+ 10
+2325.0
+ 20
+3125.0
+ 10
+2325.0
+ 20
+5625.0
+ 10
+2325.0
+ 20
+6875.0
+ 10
+0.0
+ 20
+6875.0
+ 10
+0.0
+ 20
+8750.0
+ 10
+4650.0
+ 20
+8750.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+perimeter
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+39
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+0.0
+ 20
+8750.0
+ 10
+2325.0
+ 20
+8750.0
+ 10
+2325.0
+ 20
+6875.0
+ 10
+0.0
+ 20
+6875.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+utility
+1000
+issue-1-trace
+  0
+TEXT
+  5
+3A
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+1162.5
+ 20
+7812.5
+ 30
+0.0
+ 40
+170.0
+  1
+家政间
+ 72
+1
+ 11
+1162.5
+ 21
+7812.5
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+utility
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+3B
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+2325.0
+ 20
+8750.0
+ 10
+4650.0
+ 20
+8750.0
+ 10
+4650.0
+ 20
+6875.0
+ 10
+2325.0
+ 20
+6875.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+shoe_storage
+1000
+issue-1-trace
+  0
+TEXT
+  5
+3C
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+3487.5
+ 20
+7812.5
+ 30
+0.0
+ 40
+170.0
+  1
+鞋帽区
+ 72
+1
+ 11
+3487.5
+ 21
+7812.5
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+shoe_storage
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+3D
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+2325.0
+ 20
+6875.0
+ 10
+5425.0
+ 20
+6875.0
+ 10
+5425.0
+ 20
+5625.0
+ 10
+2325.0
+ 20
+5625.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+entry_garden
+1000
+issue-1-trace
+  0
+TEXT
+  5
+3E
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+3875.0
+ 20
+6250.0
+ 30
+0.0
+ 40
+170.0
+  1
+入户花园
+ 72
+1
+ 11
+3875.0
+ 21
+6250.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+entry_garden
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+3F
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+2325.0
+ 20
+5625.0
+ 10
+4650.0
+ 20
+5625.0
+ 10
+4650.0
+ 20
+3125.0
+ 10
+2325.0
+ 20
+3125.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+service_balcony
+1000
+issue-1-trace
+  0
+TEXT
+  5
+40
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+3487.5
+ 20
+4375.0
+ 30
+0.0
+ 40
+170.0
+  1
+生活阳台
+ 72
+1
+ 11
+3487.5
+ 21
+4375.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+service_balcony
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+41
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+4650.0
+ 20
+11250.0
+ 10
+8525.0
+ 20
+11250.0
+ 10
+8525.0
+ 20
+8750.0
+ 10
+4650.0
+ 20
+8750.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+bedroom_north_1
+1000
+issue-1-trace
+  0
+TEXT
+  5
+42
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+6587.5
+ 20
+10000.0
+ 30
+0.0
+ 40
+170.0
+  1
+北次卧1
+ 72
+1
+ 11
+6587.5
+ 21
+10000.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+bedroom_north_1
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+43
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+9300.0
+ 20
+11250.0
+ 10
+12400.0
+ 20
+11250.0
+ 10
+12400.0
+ 20
+8750.0
+ 10
+9300.0
+ 20
+8750.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+bedroom_north_2
+1000
+issue-1-trace
+  0
+TEXT
+  5
+44
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+10850.0
+ 20
+10000.0
+ 30
+0.0
+ 40
+170.0
+  1
+北次卧2
+ 72
+1
+ 11
+10850.0
+ 21
+10000.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+bedroom_north_2
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+45
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+4650.0
+ 20
+8750.0
+ 10
+6975.0
+ 20
+8750.0
+ 10
+6975.0
+ 20
+6875.0
+ 10
+4650.0
+ 20
+6875.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+bathroom_1
+1000
+issue-1-trace
+  0
+TEXT
+  5
+46
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+5812.5
+ 20
+7812.5
+ 30
+0.0
+ 40
+170.0
+  1
+公卫1
+ 72
+1
+ 11
+5812.5
+ 21
+7812.5
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+bathroom_1
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+47
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+6
+ 70
+1
+ 10
+5425.0
+ 20
+7500.0
+ 10
+12400.0
+ 20
+7500.0
+ 10
+12400.0
+ 20
+3750.0
+ 10
+6975.0
+ 20
+3750.0
+ 10
+6975.0
+ 20
+5625.0
+ 10
+5425.0
+ 20
+5625.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+corridor_entry
+1000
+issue-1-trace
+  0
+TEXT
+  5
+48
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+8912.5
+ 20
+5625.0
+ 30
+0.0
+ 40
+170.0
+  1
+过道/玄关
+ 72
+1
+ 11
+8912.5
+ 21
+5625.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+corridor_entry
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+49
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+13175.0
+ 20
+11250.0
+ 10
+14725.0
+ 20
+11250.0
+ 10
+14725.0
+ 20
+8500.0
+ 10
+13175.0
+ 20
+8500.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+master_bathroom
+1000
+issue-1-trace
+  0
+TEXT
+  5
+4A
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+13950.0
+ 20
+9875.0
+ 30
+0.0
+ 40
+170.0
+  1
+主卫
+ 72
+1
+ 11
+13950.0
+ 21
+9875.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+master_bathroom
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+4B
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+14725.0
+ 20
+11250.0
+ 10
+16275.0
+ 20
+11250.0
+ 10
+16275.0
+ 20
+8500.0
+ 10
+14725.0
+ 20
+8500.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+walk_in_closet
+1000
+issue-1-trace
+  0
+TEXT
+  5
+4C
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+15500.0
+ 20
+9875.0
+ 30
+0.0
+ 40
+170.0
+  1
+衣帽间
+ 72
+1
+ 11
+15500.0
+ 21
+9875.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+walk_in_closet
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+4D
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+16275.0
+ 20
+11250.0
+ 10
+19375.0
+ 20
+11250.0
+ 10
+19375.0
+ 20
+7500.0
+ 10
+16275.0
+ 20
+7500.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+master_bedroom
+1000
+issue-1-trace
+  0
+TEXT
+  5
+4E
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+17825.0
+ 20
+9375.0
+ 30
+0.0
+ 40
+170.0
+  1
+主卧
+ 72
+1
+ 11
+17825.0
+ 21
+9375.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+master_bedroom
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+4F
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+12400.0
+ 20
+7500.0
+ 10
+15500.0
+ 20
+7500.0
+ 10
+15500.0
+ 20
+5000.0
+ 10
+12400.0
+ 20
+5000.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+flex_tea_room
+1000
+issue-1-trace
+  0
+TEXT
+  5
+50
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+13950.0
+ 20
+6250.0
+ 30
+0.0
+ 40
+170.0
+  1
+茶室/多功能区
+ 72
+1
+ 11
+13950.0
+ 21
+6250.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+flex_tea_room
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+51
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+5425.0
+ 20
+5625.0
+ 10
+8525.0
+ 20
+5625.0
+ 10
+8525.0
+ 20
+3125.0
+ 10
+5425.0
+ 20
+3125.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+bathroom_2
+1000
+issue-1-trace
+  0
+TEXT
+  5
+52
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+6975.0
+ 20
+4375.0
+ 30
+0.0
+ 40
+170.0
+  1
+公卫2
+ 72
+1
+ 11
+6975.0
+ 21
+4375.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+bathroom_2
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+53
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+4650.0
+ 20
+3125.0
+ 10
+9300.0
+ 20
+3125.0
+ 10
+9300.0
+ 20
+625.0
+ 10
+4650.0
+ 20
+625.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+bedroom_south
+1000
+issue-1-trace
+  0
+TEXT
+  5
+54
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+6975.0
+ 20
+1875.0
+ 30
+0.0
+ 40
+170.0
+  1
+南次卧
+ 72
+1
+ 11
+6975.0
+ 21
+1875.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+bedroom_south
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+55
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+9300.0
+ 20
+3750.0
+ 10
+12400.0
+ 20
+3750.0
+ 10
+12400.0
+ 20
+0.0
+ 10
+9300.0
+ 20
+0.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+kitchen
+1000
+issue-1-trace
+  0
+TEXT
+  5
+56
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+10850.0
+ 20
+1875.0
+ 30
+0.0
+ 40
+170.0
+  1
+厨房
+ 72
+1
+ 11
+10850.0
+ 21
+1875.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+kitchen
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+57
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+12400.0
+ 20
+4375.0
+ 10
+15500.0
+ 20
+4375.0
+ 10
+15500.0
+ 20
+0.0
+ 10
+12400.0
+ 20
+0.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+dining
+1000
+issue-1-trace
+  0
+TEXT
+  5
+58
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+13950.0
+ 20
+2187.5
+ 30
+0.0
+ 40
+170.0
+  1
+餐厅
+ 72
+1
+ 11
+13950.0
+ 21
+2187.5
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+dining
+1000
+issue-1-trace
+  0
+LWPOLYLINE
+  5
+59
+330
+17
+100
+AcDbEntity
+  8
+A-WALL-INT
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+15500.0
+ 20
+5000.0
+ 10
+19375.0
+ 20
+5000.0
+ 10
+19375.0
+ 20
+0.0
+ 10
+15500.0
+ 20
+0.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+living
+1000
+issue-1-trace
+  0
+TEXT
+  5
+5A
+330
+17
+100
+AcDbEntity
+  8
+A-ROOM
+100
+AcDbText
+ 10
+17437.5
+ 20
+2500.0
+ 30
+0.0
+ 40
+170.0
+  1
+客厅
+ 72
+1
+ 11
+17437.5
+ 21
+2500.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+living
+1000
+issue-1-trace
+  0
+LINE
+  5
+5B
+330
+17
+100
+AcDbEntity
+  8
+A-GLAZ
+100
+AcDbLine
+ 10
+5037.5
+ 20
+11187.5
+ 30
+0.0
+ 11
+8137.5
+ 21
+11187.5
+ 31
+0.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+glazing_1
+1000
+issue-1-trace
+  0
+LINE
+  5
+5C
+330
+17
+100
+AcDbEntity
+  8
+A-GLAZ
+100
+AcDbLine
+ 10
+9610.0
+ 20
+11187.5
+ 30
+0.0
+ 11
+12090.0
+ 21
+11187.5
+ 31
+0.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+glazing_2
+1000
+issue-1-trace
+  0
+LINE
+  5
+5D
+330
+17
+100
+AcDbEntity
+  8
+A-GLAZ
+100
+AcDbLine
+ 10
+16740.0
+ 20
+11187.5
+ 30
+0.0
+ 11
+18755.0
+ 21
+11187.5
+ 31
+0.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+glazing_3
+1000
+issue-1-trace
+  0
+LINE
+  5
+5E
+330
+17
+100
+AcDbEntity
+  8
+A-GLAZ
+100
+AcDbLine
+ 10
+9920.0
+ 20
+125.0
+ 30
+0.0
+ 11
+18910.0
+ 21
+125.0
+ 31
+0.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+glazing_4
+1000
+issue-1-trace
+  0
+LINE
+  5
+5F
+330
+17
+100
+AcDbEntity
+  8
+A-GLAZ
+100
+AcDbLine
+ 10
+19220.0
+ 20
+10875.0
+ 30
+0.0
+ 11
+19220.0
+ 21
+7812.5
+ 31
+0.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+glazing_5
+1000
+issue-1-trace
+  0
+LINE
+  5
+60
+330
+17
+100
+AcDbEntity
+  8
+A-GLAZ
+100
+AcDbLine
+ 10
+19220.0
+ 20
+4625.0
+ 30
+0.0
+ 11
+19220.0
+ 21
+375.0
+ 31
+0.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+glazing_6
+1000
+issue-1-trace
+  0
+LINE
+  5
+61
+330
+17
+100
+AcDbEntity
+  8
+A-GLAZ
+100
+AcDbLine
+ 10
+15655.0
+ 20
+4875.0
+ 30
+0.0
+ 11
+18910.0
+ 21
+4875.0
+ 31
+0.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+glazing_7
+1000
+issue-1-trace
+  0
+LINE
+  5
+62
+330
+17
+100
+AcDbEntity
+  8
+A-GLAZ
+100
+AcDbLine
+ 10
+16430.0
+ 20
+7625.0
+ 30
+0.0
+ 11
+18910.0
+ 21
+7625.0
+ 31
+0.0
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+glazing_8
+1000
+issue-1-trace
+  0
+TEXT
+  5
+63
+330
+17
+100
+AcDbEntity
+  8
+A-UNVERIFIED
+100
+AcDbText
+ 10
+0.0
+ 20
+13450.0
+ 30
+0.0
+ 40
+400.0
+  1
+B0 ESTIMATED PLAN - NOT FOR CONSTRUCTION
+ 11
+0.0
+ 21
+13450.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+note_0
+1000
+issue-1-trace
+  0
+TEXT
+  5
+64
+330
+17
+100
+AcDbEntity
+  8
+A-NOTE
+100
+AcDbText
+ 10
+0.0
+ 20
+12950.0
+ 30
+0.0
+ 40
+220.0
+  1
+LN803 / B0 v0.1 / 20261004
+ 11
+0.0
+ 21
+12950.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+note_1
+1000
+issue-1-trace
+  0
+TEXT
+  5
+65
+330
+17
+100
+AcDbEntity
+  8
+A-NOTE
+100
+AcDbText
+ 10
+0.0
+ 20
+12450.0
+ 30
+0.0
+ 40
+220.0
+  1
+Visual trace only; CAD mm are estimated. B1 verified dimensions will supersede B0.
+ 11
+0.0
+ 21
+12450.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+note_2
+1000
+issue-1-trace
+  0
+TEXT
+  5
+66
+330
+17
+100
+AcDbEntity
+  8
+A-NOTE
+100
+AcDbText
+ 10
+0.0
+ 20
+11950.0
+ 30
+0.0
+ 40
+220.0
+  1
+Room outlines are schematic boundaries; no wall thickness or structural claims.
+ 11
+0.0
+ 21
+11950.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_B0
+1000
+B0
+1000
+estimated
+1000
+note_3
+1000
+issue-1-trace
+  0
+TEXT
+  5
+6F
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ROLE
+100
+AcDbText
+ 10
+17825.0
+ 20
+10500.0
+ 30
+0.0
+ 40
+160.0
+  1
+MASTER
+ 72
+1
+ 11
+17825.0
+ 21
+10500.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+role_master_bedroom
+1000
+master_bedroom
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+70
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ROLE
+100
+AcDbText
+ 10
+6975.0
+ 20
+2625.0
+ 30
+0.0
+ 40
+160.0
+  1
+PARENTS
+ 72
+1
+ 11
+6975.0
+ 21
+2625.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+role_bedroom_south
+1000
+bedroom_south
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+71
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ROLE
+100
+AcDbText
+ 10
+6587.5
+ 20
+10750.0
+ 30
+0.0
+ 40
+160.0
+  1
+GUEST ?
+ 72
+1
+ 11
+6587.5
+ 21
+10750.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+role_bedroom_north_1
+1000
+bedroom_north_1
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+72
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ROLE
+100
+AcDbText
+ 10
+10850.0
+ 20
+10750.0
+ 30
+0.0
+ 40
+160.0
+  1
+CHILD ?
+ 72
+1
+ 11
+10850.0
+ 21
+10750.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+role_bedroom_north_2
+1000
+bedroom_north_2
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+73
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ROLE
+100
+AcDbText
+ 10
+5812.5
+ 20
+8281.25
+ 30
+0.0
+ 40
+160.0
+  1
+BATH RETAINED
+ 72
+1
+ 11
+5812.5
+ 21
+8281.25
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+retain_bathroom_1
+1000
+bathroom_1
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+74
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ROLE
+100
+AcDbText
+ 10
+6975.0
+ 20
+5000.0
+ 30
+0.0
+ 40
+160.0
+  1
+BATH RETAINED
+ 72
+1
+ 11
+6975.0
+ 21
+5000.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+retain_bathroom_2
+1000
+bathroom_2
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+75
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ROLE
+100
+AcDbText
+ 10
+13950.0
+ 20
+10562.5
+ 30
+0.0
+ 40
+160.0
+  1
+BATH RETAINED
+ 72
+1
+ 11
+13950.0
+ 21
+10562.5
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+retain_master_bathroom
+1000
+master_bathroom
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+76
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ZONE
+100
+AcDbText
+ 10
+17825.0
+ 20
+9787.5
+ 30
+0.0
+ 40
+160.0
+  1
+SLEEP + WFH ZONE
+ 72
+1
+ 11
+17825.0
+ 21
+9787.5
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+zone_master_bedroom_0
+1000
+master_bedroom
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+77
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ZONE
+100
+AcDbText
+ 10
+15500.0
+ 20
+10177.5
+ 30
+0.0
+ 40
+160.0
+  1
+TWO-PERSON STORAGE
+ 72
+1
+ 11
+15500.0
+ 21
+10177.5
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+zone_walk_in_closet_0
+1000
+walk_in_closet
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+78
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ZONE
+100
+AcDbText
+ 10
+6975.0
+ 20
+2150.0
+ 30
+0.0
+ 40
+160.0
+  1
+SLEEP + STORAGE
+ 72
+1
+ 11
+6975.0
+ 21
+2150.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+zone_bedroom_south_0
+1000
+bedroom_south
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+79
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ZONE
+100
+AcDbText
+ 10
+6587.5
+ 20
+10275.0
+ 30
+0.0
+ 40
+160.0
+  1
+GUEST SLEEP / READING
+ 72
+1
+ 11
+6587.5
+ 21
+10275.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+zone_bedroom_north_1_0
+1000
+bedroom_north_1
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+7A
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ZONE
+100
+AcDbText
+ 10
+10850.0
+ 20
+10275.0
+ 30
+0.0
+ 40
+160.0
+  1
+SLEEP / CHILD STUDY
+ 72
+1
+ 11
+10850.0
+ 21
+10275.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+zone_bedroom_north_2_0
+1000
+bedroom_north_2
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+7B
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ZONE
+100
+AcDbText
+ 10
+10850.0
+ 20
+9825.0
+ 30
+0.0
+ 40
+160.0
+  1
+CLOTHES + BOOKS
+ 72
+1
+ 11
+10850.0
+ 21
+9825.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+zone_bedroom_north_2_1
+1000
+bedroom_north_2
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+7C
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ZONE
+100
+AcDbText
+ 10
+13950.0
+ 20
+6525.0
+ 30
+0.0
+ 40
+160.0
+  1
+SEMI-OPEN FAMILY FLEX
+ 72
+1
+ 11
+13950.0
+ 21
+6525.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+zone_flex_tea_room_0
+1000
+flex_tea_room
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+7D
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ZONE
+100
+AcDbText
+ 10
+13950.0
+ 20
+6075.0
+ 30
+0.0
+ 40
+160.0
+  1
+TOY / BOOK WALL CANDIDATE
+ 72
+1
+ 11
+13950.0
+ 21
+6075.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+zone_flex_tea_room_1
+1000
+flex_tea_room
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+7E
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ZONE
+100
+AcDbText
+ 10
+13950.0
+ 20
+5625.0
+ 30
+0.0
+ 40
+160.0
+  1
+WIDE OPENING CANDIDATE
+ 72
+1
+ 11
+13950.0
+ 21
+5625.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+zone_flex_tea_room_2
+1000
+flex_tea_room
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+7F
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ZONE
+100
+AcDbText
+ 10
+17437.5
+ 20
+3050.0
+ 30
+0.0
+ 40
+160.0
+  1
+LIGHT SOFA / FAMILY PLAY
+ 72
+1
+ 11
+17437.5
+ 21
+3050.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+zone_living_0
+1000
+living
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+80
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ZONE
+100
+AcDbText
+ 10
+17437.5
+ 20
+2150.0
+ 30
+0.0
+ 40
+160.0
+  1
+MOVABLE TV DEFAULT
+ 72
+1
+ 11
+17437.5
+ 21
+2150.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+zone_living_1
+1000
+living
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+81
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ZONE
+100
+AcDbText
+ 10
+13950.0
+ 20
+2668.75
+ 30
+0.0
+ 40
+160.0
+  1
+EXTENDABLE DINING / RESET
+ 72
+1
+ 11
+13950.0
+ 21
+2668.75
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+zone_dining_0
+1000
+dining
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+82
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ZONE
+100
+AcDbText
+ 10
+10850.0
+ 20
+2287.5
+ 30
+0.0
+ 40
+160.0
+  1
+SLIDING GLASS DOOR LOGIC
+ 72
+1
+ 11
+10850.0
+ 21
+2287.5
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+zone_kitchen_0
+1000
+kitchen
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+83
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ZONE
+100
+AcDbText
+ 10
+3875.0
+ 20
+6387.5
+ 30
+0.0
+ 40
+160.0
+  1
+PET / ACTIVITY CANDIDATE
+ 72
+1
+ 11
+3875.0
+ 21
+6387.5
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+zone_entry_garden_0
+1000
+entry_garden
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+84
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-ZONE
+100
+AcDbText
+ 10
+3487.5
+ 20
+4650.0
+ 30
+0.0
+ 40
+160.0
+  1
+LAUNDRY / DAILY DRYING
+ 72
+1
+ 11
+3487.5
+ 21
+4650.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+zone_service_balcony_0
+1000
+service_balcony
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+85
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-PET
+100
+AcDbText
+ 10
+3875.0
+ 20
+5875.0
+ 30
+0.0
+ 40
+160.0
+  1
+LITTER PRIMARY CONDITIONAL
+ 72
+1
+ 11
+3875.0
+ 21
+5875.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+pet_litter_primary
+1000
+entry_garden
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+86
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-PET
+100
+AcDbText
+ 10
+1162.5
+ 20
+7250.0
+ 30
+0.0
+ 40
+160.0
+  1
+INDOOR LITTER BACKUP
+ 72
+1
+ 11
+1162.5
+ 21
+7250.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+pet_litter_backup
+1000
+utility
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+87
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-PET
+100
+AcDbText
+ 10
+6975.0
+ 20
+3625.0
+ 30
+0.0
+ 40
+160.0
+  1
+ALTERNATE LITTER CANDIDATE
+ 72
+1
+ 11
+6975.0
+ 21
+3625.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+pet_litter_alternate
+1000
+bathroom_2
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+88
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-PET
+100
+AcDbText
+ 10
+17437.5
+ 20
+1000.0
+ 30
+0.0
+ 40
+160.0
+  1
+PET WATER CANDIDATE
+ 72
+1
+ 11
+17437.5
+ 21
+1000.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+pet_water
+1000
+living
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+89
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-PET
+100
+AcDbText
+ 10
+13950.0
+ 20
+875.0
+ 30
+0.0
+ 40
+160.0
+  1
+PET FEEDING CANDIDATE
+ 72
+1
+ 11
+13950.0
+ 21
+875.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+pet_feeding
+1000
+dining
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+8A
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-PET
+100
+AcDbText
+ 10
+13950.0
+ 20
+5150.0
+ 30
+0.0
+ 40
+160.0
+  1
+LOOSE PET REST CANDIDATE
+ 72
+1
+ 11
+13950.0
+ 21
+5150.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+pet_rest
+1000
+flex_tea_room
+1000
+plan
+1000
+issue-9
+  0
+TEXT
+  5
+8B
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+0.0
+ 20
+14150.0
+ 30
+0.0
+ 40
+220.0
+  1
+PROVISIONAL CONCEPT PLAN — B0 ESTIMATED GEOMETRY — VERIFY ON SITE BEFORE B1/L1
+ 11
+0.0
+ 21
+14150.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+warning
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+8C
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+13450.0
+ 30
+0.0
+ 40
+220.0
+  1
+LAYOUT B | Family Flex / Public Space First
+ 11
+20975.0
+ 21
+13450.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_0
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+8D
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+13150.0
+ 30
+0.0
+ 40
+220.0
+  1
+Intervention: medium_conditional | no geometry changes drawn
+ 11
+20975.0
+ 21
+13150.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_1
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+8E
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+12850.0
+ 30
+0.0
+ 40
+220.0
+  1
+B0 only / B1 pending / L1 pending; Product Owner selects or combines
+ 11
+20975.0
+ 21
+12850.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_2
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+8F
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+12550.0
+ 30
+0.0
+ 40
+220.0
+  1
+Labels indicate uses, never measured fit or construction locations.
+ 11
+20975.0
+ 21
+12550.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_3
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+90
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+12250.0
+ 30
+0.0
+ 40
+220.0
+  1
+ROOM / WORK STRATEGY
+ 11
+20975.0
+ 21
+12250.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_4
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+91
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+11950.0
+ 30
+0.0
+ 40
+220.0
+  1
+Attempt master bedroom work zone with uncluttered video background and protected closet route; keep
+ 11
+20975.0
+ 21
+11950.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_5
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+92
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+11650.0
+ 30
+0.0
+ 40
+220.0
+  1
+public Family Flex primarily for family life unless circulation makes master work impractical.
+ 11
+20975.0
+ 21
+11650.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_6
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+93
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+11350.0
+ 30
+0.0
+ 40
+220.0
+  1
+WFH fallback only if: Master-suite workstation materially harms bedroom or wardrobe circulation.
+ 11
+20975.0
+ 21
+11350.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_7
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+94
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+11050.0
+ 30
+0.0
+ 40
+220.0
+  1
+Parents: Preserve south bedroom as long-term parents room near shared life; protect two-side bed access,
+ 11
+20975.0
+ 21
+11050.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_8
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+95
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+10750.0
+ 30
+0.0
+ 40
+220.0
+  1
+two-person storage and quiet nighttime bathroom circulation from public play spillover.
+ 11
+20975.0
+ 21
+10750.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_9
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+96
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+10450.0
+ 30
+0.0
+ 40
+220.0
+  1
+Child/guest provisional: wait for B1 light, clear spans and furniture fit.
+ 11
+20975.0
+ 21
+10450.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_10
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+97
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+10150.0
+ 30
+0.0
+ 40
+220.0
+  1
+FAMILY / PUBLIC STRATEGY
+ 11
+20975.0
+ 21
+10150.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_11
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+98
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+9850.0
+ 30
+0.0
+ 40
+220.0
+  1
+Conceptually test a usable solid functional wall for low cabinets, books, toys and optional future work
+ 11
+20975.0
+ 21
+9850.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_12
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+99
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+9550.0
+ 30
+0.0
+ 40
+220.0
+  1
+surface; prefer a wide living-facing opening only after B1 structural/facade verification. No
+ 11
+20975.0
+ 21
+9550.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_13
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+9A
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+9250.0
+ 30
+0.0
+ 40
+220.0
+  1
+wall/opening drawn or approved.
+ 11
+20975.0
+ 21
+9250.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_14
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+9B
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+8950.0
+ 30
+0.0
+ 40
+220.0
+  1
+Treat living/dining/flex as a coordinated family-activity group; movable TV and lightweight sofa allow
+ 11
+20975.0
+ 21
+8950.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_15
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+9C
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+8650.0
+ 30
+0.0
+ 40
+220.0
+  1
+play/reset cycles; keep table compact daily and expandable for gatherings.
+ 11
+20975.0
+ 21
+8650.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_16
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+9D
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+8350.0
+ 30
+0.0
+ 40
+220.0
+  1
+ENTRANCE / PET STRATEGY
+ 11
+20975.0
+ 21
+8350.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_17
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+9E
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+8050.0
+ 30
+0.0
+ 40
+220.0
+  1
+Explore pet support and optional compact activity overflow to relieve public toy congestion; no required
+ 11
+20975.0
+ 21
+8050.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_18
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+9F
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+7750.0
+ 30
+0.0
+ 40
+220.0
+  1
+gym.
+ 11
+20975.0
+ 21
+7750.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_19
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+A0
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+7450.0
+ 30
+0.0
+ 40
+220.0
+  1
+Verify heat, weather, ventilation, access, enclosure permission and cat safety onsite before assigning
+ 11
+20975.0
+ 21
+7450.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_20
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+A1
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+7150.0
+ 30
+0.0
+ 40
+220.0
+  1
+any use.
+ 11
+20975.0
+ 21
+7150.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_21
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+A2
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+6850.0
+ 30
+0.0
+ 40
+220.0
+  1
+Entry-garden label is an unverified entrance-right anchor, not an enclosure boundary.
+ 11
+20975.0
+ 21
+6850.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_22
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+A3
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+6550.0
+ 30
+0.0
+ 40
+220.0
+  1
+5 cats | Test entrance-side litter support to separate clean public activity from dirty functions;
+ 11
+20975.0
+ 21
+6550.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_23
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+A4
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+6250.0
+ 30
+0.0
+ 40
+220.0
+  1
+feeding and fountain remain distributed indoors with safe power and easy cleaning.
+ 11
+20975.0
+ 21
+6250.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_24
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+A5
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+5950.0
+ 30
+0.0
+ 40
+220.0
+  1
+If entrance-right fails exposure/access checks, utility becomes primary and bathroom becomes backup; both
+ 11
+20975.0
+ 21
+5950.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_25
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+A6
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+5650.0
+ 30
+0.0
+ 40
+220.0
+  1
+need B1 clearances without compromising core fixtures or laundry.
+ 11
+20975.0
+ 21
+5650.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_26
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+A7
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+5350.0
+ 30
+0.0
+ 40
+220.0
+  1
+LITTER PRIMARY CONDITIONAL | entry_garden | Provisional entrance anchor only;
+ 11
+20975.0
+ 21
+5350.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_27
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+A8
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+5050.0
+ 30
+0.0
+ 40
+220.0
+  1
+heat/weather/ventilation/access/enclosure and escape protection must pass.
+ 11
+20975.0
+ 21
+5050.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_28
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+A9
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+4750.0
+ 30
+0.0
+ 40
+220.0
+  1
+INDOOR LITTER BACKUP | utility | Can become primary if entrance fails; verify cleanability and
+ 11
+20975.0
+ 21
+4750.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_29
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+AA
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+4450.0
+ 30
+0.0
+ 40
+220.0
+  1
+service/laundry clearance.
+ 11
+20975.0
+ 21
+4450.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_30
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+AB
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+4150.0
+ 30
+0.0
+ 40
+220.0
+  1
+ALTERNATE LITTER CANDIDATE | bathroom_2 | Indoor backup if utility becomes primary; verify dry
+ 11
+20975.0
+ 21
+4150.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_31
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+AC
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+3850.0
+ 30
+0.0
+ 40
+220.0
+  1
+fixture/door clearance.
+ 11
+20975.0
+ 21
+3850.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_32
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+AD
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+3550.0
+ 30
+0.0
+ 40
+220.0
+  1
+PET WATER CANDIDATE | living | Separate from litter and toy reset route; safe fountain power/cables.
+ 11
+20975.0
+ 21
+3550.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_33
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+AE
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+3250.0
+ 30
+0.0
+ 40
+220.0
+  1
+PET FEEDING CANDIDATE | dining | Separate from litter and extendable-table route.
+ 11
+20975.0
+ 21
+3250.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_34
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+AF
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+2950.0
+ 30
+0.0
+ 40
+220.0
+  1
+LOOSE PET REST CANDIDATE | flex_tea_room | Loose rest/scratch furniture only if compatible with children
+ 11
+20975.0
+ 21
+2950.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_35
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+B0
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+2650.0
+ 30
+0.0
+ 40
+220.0
+  1
+and wide-opening feasibility.
+ 11
+20975.0
+ 21
+2650.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_36
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+B1
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+2350.0
+ 30
+0.0
+ 40
+220.0
+  1
+REQUIREMENTS, NOT FIT
+ 11
+20975.0
+ 21
+2350.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_37
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+B2
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+2050.0
+ 30
+0.0
+ 40
+220.0
+  1
+REQUIREMENT ONLY: preferred desk 1600–1800 mm; depth 750 / 800 mm
+ 11
+20975.0
+ 21
+2050.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_38
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+B3
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+1750.0
+ 30
+0.0
+ 40
+220.0
+  1
+REQUIREMENT ONLY: constrained desk fallback 1400 mm
+ 11
+20975.0
+ 21
+1750.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_39
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+B4
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+1450.0
+ 30
+0.0
+ 40
+220.0
+  1
+REQUIREMENT ONLY: 2 monitors, 27 inch each
+ 11
+20975.0
+ 21
+1450.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_40
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+B5
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+1150.0
+ 30
+0.0
+ 40
+220.0
+  1
+REQUIREMENT ONLY: parents bed width 1.8 m
+ 11
+20975.0
+ 21
+1150.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_41
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+B6
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+850.0
+ 30
+0.0
+ 40
+220.0
+  1
+REQUIREMENT ONLY: child bed width 1.35–1.5 m
+ 11
+20975.0
+ 21
+850.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_42
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+B7
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+550.0
+ 30
+0.0
+ 40
+220.0
+  1
+REQUIREMENT ONLY: TV target 75 inch; future ~85 inch conditional
+ 11
+20975.0
+ 21
+550.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_43
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+B8
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+250.0
+ 30
+0.0
+ 40
+220.0
+  1
+Bathtub optional; no forced gym/cat wall; no enclosure approved.
+ 11
+20975.0
+ 21
+250.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_44
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+B9
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+-50.0
+ 30
+0.0
+ 40
+220.0
+  1
+B0.3: flex/public connection, corridor/bath overlaps and suite scope unresolved.
+ 11
+20975.0
+ 21
+-50.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_45
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+BA
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+-350.0
+ 30
+0.0
+ 40
+220.0
+  1
+ASSUMPTIONS
+ 11
+20975.0
+ 21
+-350.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_46
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+BB
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+-650.0
+ 30
+0.0
+ 40
+220.0
+  1
+Public integration is a preference, not evidence of a real shared opening in B0.
+ 11
+20975.0
+ 21
+-650.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_47
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+BC
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+-950.0
+ 30
+0.0
+ 40
+220.0
+  1
+A solid functional wall and wide opening require permissions and a verified envelope.
+ 11
+20975.0
+ 21
+-950.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_48
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+BD
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+20975.0
+ 20
+-1250.0
+ 30
+0.0
+ 40
+220.0
+  1
+Reversed child/guest hypothesis tests allocation only; neither room is declared better.
+ 11
+20975.0
+ 21
+-1250.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_49
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+BE
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+13450.0
+ 30
+0.0
+ 40
+220.0
+  1
+STRENGTHS
+ 11
+36975.0
+ 21
+13450.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_50
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+BF
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+13150.0
+ 30
+0.0
+ 40
+220.0
+  1
+Strongest integration of child/family activity with living and easy toy reset.
+ 11
+36975.0
+ 21
+13150.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_51
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+C0
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+12850.0
+ 30
+0.0
+ 40
+220.0
+  1
+Functional-wall candidate combines books, toys and possible future work utility.
+ 11
+36975.0
+ 21
+12850.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_52
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+C1
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+12550.0
+ 30
+0.0
+ 40
+220.0
+  1
+Pet support can relieve indoor congestion if entrance conditions pass.
+ 11
+36975.0
+ 21
+12550.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_53
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+C2
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+12250.0
+ 30
+0.0
+ 40
+220.0
+  1
+TRADEOFFS
+ 11
+36975.0
+ 21
+12250.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_54
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+C3
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+11950.0
+ 30
+0.0
+ 40
+220.0
+  1
+Wide opening may increase noise and reduce quiet retreat or office privacy.
+ 11
+36975.0
+ 21
+11950.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_55
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+C4
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+11650.0
+ 30
+0.0
+ 40
+220.0
+  1
+Conditional glazing/wall exploration carries more feasibility risk than A.
+ 11
+36975.0
+ 21
+11650.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_56
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+C5
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+11350.0
+ 30
+0.0
+ 40
+220.0
+  1
+Entrance pet support cannot be relied on before heat/weather and safety checks.
+ 11
+36975.0
+ 21
+11350.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_57
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+C6
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+11050.0
+ 30
+0.0
+ 40
+220.0
+  1
+B1 BLOCKERS
+ 11
+36975.0
+ 21
+11050.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_58
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+C7
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+10750.0
+ 30
+0.0
+ 40
+220.0
+  1
+Actual flex/living connection; B0 has no verified shared edge or opening.
+ 11
+36975.0
+ 21
+10750.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_59
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+C8
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+10450.0
+ 30
+0.0
+ 40
+220.0
+  1
+Structural, facade, glazing, fire and MEP approval for functional wall and wide opening.
+ 11
+36975.0
+ 21
+10450.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_60
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+C9
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+10150.0
+ 30
+0.0
+ 40
+220.0
+  1
+Master WFH chair/closet route, glare, background and service feasibility.
+ 11
+36975.0
+ 21
+10150.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_61
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+CA
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+9850.0
+ 30
+0.0
+ 40
+220.0
+  1
+Parents two-side bed access and nighttime route protected from activity circulation.
+ 11
+36975.0
+ 21
+9850.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_62
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+CB
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+9550.0
+ 30
+0.0
+ 40
+220.0
+  1
+Upper-room light, clear spans and furniture-fit evidence before child/guest assignment.
+ 11
+36975.0
+ 21
+9550.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_63
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+CC
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+9250.0
+ 30
+0.0
+ 40
+220.0
+  1
+Entrance exposure/access and indoor litter alternatives; laundry and fixture clearances.
+ 11
+36975.0
+ 21
+9250.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_64
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+TEXT
+  5
+CD
+330
+17
+100
+AcDbEntity
+  8
+A-CONCEPT-NOTE
+100
+AcDbText
+ 10
+36975.0
+ 20
+8950.0
+ 30
+0.0
+ 40
+220.0
+  1
+Verified TV viewing distance, toy reset paths and cat-safe glazing/cables.
+ 11
+36975.0
+ 21
+8950.0
+ 31
+0.0
+100
+AcDbText
+1001
+LN803_CONCEPT
+1000
+B0
+1000
+provisional_concepts
+1000
+B
+1000
+note_65
+1000
+
+1000
+panel
+1000
+issue-9
+  0
+ENDSEC
+  0
+SECTION
+  2
+OBJECTS
+  0
+DICTIONARY
+  5
+A
+330
+0
+100
+AcDbDictionary
+281
+1
+  3
+ACAD_COLOR
+350
+B
+  3
+ACAD_GROUP
+350
+C
+  3
+ACAD_LAYOUT
+350
+D
+  3
+ACAD_MATERIAL
+350
+E
+  3
+ACAD_MLEADERSTYLE
+350
+F
+  3
+ACAD_MLINESTYLE
+350
+10
+  3
+ACAD_PLOTSETTINGS
+350
+11
+  3
+ACAD_PLOTSTYLENAME
+350
+12
+  3
+ACAD_SCALELIST
+350
+14
+  3
+ACAD_TABLESTYLE
+350
+15
+  3
+ACAD_VISUALSTYLE
+350
+16
+  3
+EZDXF_META
+350
+2D
+  0
+DICTIONARY
+  5
+B
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+DICTIONARY
+  5
+C
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+DICTIONARY
+  5
+D
+330
+A
+100
+AcDbDictionary
+281
+1
+  3
+Model
+350
+1A
+  3
+Layout1
+350
+1E
+  0
+DICTIONARY
+  5
+E
+330
+A
+100
+AcDbDictionary
+281
+1
+  3
+ByBlock
+350
+1F
+  3
+ByLayer
+350
+20
+  3
+Global
+350
+21
+  0
+DICTIONARY
+  5
+F
+330
+A
+100
+AcDbDictionary
+281
+1
+  3
+Standard
+350
+2C
+  0
+DICTIONARY
+  5
+10
+330
+A
+100
+AcDbDictionary
+281
+1
+  3
+Standard
+350
+22
+  0
+DICTIONARY
+  5
+11
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+ACDBDICTIONARYWDFLT
+  5
+12
+330
+A
+100
+AcDbDictionary
+281
+1
+  3
+Normal
+350
+13
+100
+AcDbDictionaryWithDefault
+340
+13
+  0
+ACDBPLACEHOLDER
+  5
+13
+330
+12
+  0
+DICTIONARY
+  5
+14
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+DICTIONARY
+  5
+15
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+DICTIONARY
+  5
+16
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+LAYOUT
+  5
+1A
+330
+D
+100
+AcDbPlotSettings
+  1
+
+  4
+A3
+  6
+
+ 40
+7.5
+ 41
+20.0
+ 42
+7.5
+ 43
+20.0
+ 44
+420.0
+ 45
+297.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+1.0
+ 70
+1024
+ 72
+1
+ 73
+0
+ 74
+5
+  7
+
+ 75
+16
+ 76
+0
+ 77
+2
+ 78
+300
+147
+1.0
+148
+0.0
+149
+0.0
+100
+AcDbLayout
+  1
+Model
+ 70
+1
+ 71
+0
+ 10
+0.0
+ 20
+0.0
+ 11
+420.0
+ 21
+297.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+1e+20
+ 24
+1e+20
+ 34
+1e+20
+ 15
+-1e+20
+ 25
+-1e+20
+ 35
+-1e+20
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+1
+330
+17
+  0
+LAYOUT
+  5
+1E
+330
+D
+100
+AcDbPlotSettings
+  1
+
+  4
+A3
+  6
+
+ 40
+7.5
+ 41
+20.0
+ 42
+7.5
+ 43
+20.0
+ 44
+420.0
+ 45
+297.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+1.0
+ 70
+0
+ 72
+1
+ 73
+0
+ 74
+5
+  7
+
+ 75
+16
+ 76
+0
+ 77
+2
+ 78
+300
+147
+1.0
+148
+0.0
+149
+0.0
+100
+AcDbLayout
+  1
+Layout1
+ 70
+1
+ 71
+1
+ 10
+0.0
+ 20
+0.0
+ 11
+420.0
+ 21
+297.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+1e+20
+ 24
+1e+20
+ 34
+1e+20
+ 15
+-1e+20
+ 25
+-1e+20
+ 35
+-1e+20
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+1
+330
+1B
+  0
+MATERIAL
+  5
+1F
+102
+{ACAD_REACTORS
+330
+E
+102
+}
+330
+E
+100
+AcDbMaterial
+  1
+ByBlock
+  2
+
+ 70
+0
+ 40
+1.0
+ 71
+1
+ 41
+1.0
+ 91
+-1023410177
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 44
+0.5
+ 73
+0
+ 45
+1.0
+ 46
+1.0
+ 77
+1
+  4
+
+ 78
+1
+ 79
+1
+170
+1
+ 48
+1.0
+171
+1
+  6
+
+172
+1
+173
+1
+174
+1
+140
+1.0
+141
+1.0
+175
+1
+  7
+
+176
+1
+177
+1
+178
+1
+143
+1.0
+179
+1
+  8
+
+270
+1
+271
+1
+272
+1
+145
+1.0
+146
+1.0
+273
+1
+  9
+
+274
+1
+275
+1
+276
+1
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 94
+63
+  0
+MATERIAL
+  5
+20
+102
+{ACAD_REACTORS
+330
+E
+102
+}
+330
+E
+100
+AcDbMaterial
+  1
+ByLayer
+  2
+
+ 70
+0
+ 40
+1.0
+ 71
+1
+ 41
+1.0
+ 91
+-1023410177
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 44
+0.5
+ 73
+0
+ 45
+1.0
+ 46
+1.0
+ 77
+1
+  4
+
+ 78
+1
+ 79
+1
+170
+1
+ 48
+1.0
+171
+1
+  6
+
+172
+1
+173
+1
+174
+1
+140
+1.0
+141
+1.0
+175
+1
+  7
+
+176
+1
+177
+1
+178
+1
+143
+1.0
+179
+1
+  8
+
+270
+1
+271
+1
+272
+1
+145
+1.0
+146
+1.0
+273
+1
+  9
+
+274
+1
+275
+1
+276
+1
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 94
+63
+  0
+MATERIAL
+  5
+21
+102
+{ACAD_REACTORS
+330
+E
+102
+}
+330
+E
+100
+AcDbMaterial
+  1
+Global
+  2
+
+ 70
+0
+ 40
+1.0
+ 71
+1
+ 41
+1.0
+ 91
+-1023410177
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 44
+0.5
+ 73
+0
+ 45
+1.0
+ 46
+1.0
+ 77
+1
+  4
+
+ 78
+1
+ 79
+1
+170
+1
+ 48
+1.0
+171
+1
+  6
+
+172
+1
+173
+1
+174
+1
+140
+1.0
+141
+1.0
+175
+1
+  7
+
+176
+1
+177
+1
+178
+1
+143
+1.0
+179
+1
+  8
+
+270
+1
+271
+1
+272
+1
+145
+1.0
+146
+1.0
+273
+1
+  9
+
+274
+1
+275
+1
+276
+1
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 94
+63
+  0
+MLINESTYLE
+  5
+22
+102
+{ACAD_REACTORS
+330
+10
+102
+}
+330
+10
+100
+AcDbMlineStyle
+  2
+Standard
+ 70
+0
+  3
+
+ 62
+256
+ 51
+90.0
+ 52
+90.0
+ 71
+2
+ 49
+0.5
+ 62
+256
+  6
+BYLAYER
+ 49
+-0.5
+ 62
+256
+  6
+BYLAYER
+  0
+MLEADERSTYLE
+  5
+2C
+102
+{ACAD_REACTORS
+330
+F
+102
+}
+330
+F
+100
+AcDbMLeaderStyle
+179
+2
+170
+2
+171
+1
+172
+0
+ 90
+2
+ 40
+0.0
+ 41
+0.0
+173
+1
+ 91
+-1056964608
+ 92
+-2
+290
+1
+ 42
+2.0
+291
+1
+ 43
+8.0
+  3
+Standard
+ 44
+4.0
+300
+
+342
+29
+174
+1
+175
+1
+176
+0
+178
+1
+ 93
+-1056964608
+ 45
+4.0
+292
+0
+297
+0
+ 46
+4.0
+ 94
+-1056964608
+ 47
+1.0
+ 49
+1.0
+140
+1.0
+294
+1
+141
+0.0
+177
+0
+142
+1.0
+295
+0
+296
+0
+143
+3.75
+271
+0
+272
+9
+273
+9
+  0
+DICTIONARY
+  5
+2D
+330
+A
+100
+AcDbDictionary
+280
+1
+281
+1
+  3
+CREATED_BY_EZDXF
+350
+2E
+  3
+WRITTEN_BY_EZDXF
+350
+69
+  0
+DICTIONARYVAR
+  5
+2E
+330
+2D
+100
+DictionaryVariables
+280
+0
+  1
+0.0 @ 2000-01-01T00:00:00.000000+00:00
+  0
+DICTIONARYVAR
+  5
+69
+330
+2D
+100
+DictionaryVariables
+280
+0
+  1
+0.0 @ 2000-01-01T00:00:00.000000+00:00
+  0
+ENDSEC
+  0
+EOF

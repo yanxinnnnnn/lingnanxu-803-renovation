@@ -1,0 +1,278 @@
+# Issue #9: conceptual uses only, never new measured geometry.
+version: "0.1"
+artifact_date: "20261008"
+status: provisional_concepts
+baseline: B0
+construction_ready: false
+b1_status: pending
+l1_status: pending_not_selected
+selection_authority: Product Owner
+source_issue: https://github.com/yanxinnnnnn/lingnanxu-803-renovation/issues/9
+source_inputs:
+  - data/b0_floorplan.yaml
+  - data/b0_layout_input.yaml
+  - data/space_program_v0.1.yaml
+  - docs/SPACE_PROGRAM_v0.1.md
+  - measurements/onsite-survey-803.md
+warning: PROVISIONAL CONCEPT PLAN — B0 ESTIMATED GEOMETRY — VERIFY ON SITE BEFORE B1/L1
+linear_dimensions: []
+representation: labels_only_no_furniture_fit
+zone_bindings:
+  master_suite: [master_bedroom, walk_in_closet, master_bathroom]
+  parents: bedroom_south
+  family_flex: flex_tea_room
+  entrance_right:
+    candidate_room_id: entry_garden
+    status: provisional_anchor_only
+    note: Entry-garden trace is a review anchor for entrance-right discussion, not a verified correspondence or enclosure boundary. Left service/entry topology is unresolved in B0.3.
+shared_program:
+  bedroom_count: 4
+  bathroom_room_ids: [bathroom_1, bathroom_2, master_bathroom]
+  master_occupants: [homeowner, spouse]
+  parents_residency: long_term
+  child_strategy: Growth-oriented sleep, proper study, clothing and books; public play supplements the bedroom.
+  guest_strategy: True overnight sleeping plus useful quiet use; bed mechanism waits for verified fit.
+  kitchen_strategy: Retain sliding glass-door logic; open for light cooking, close for heavy cooking; retain dining-area dishwasher relationship.
+  dining_strategy: Compact everyday extendable table; expansion only after circulation checks.
+  living_strategy: Lightweight sofa and movable TV default; anti-tip measures, locking wheels and restrained console/power/network cables.
+  laundry_strategy: Retain service-balcony washer-dryer and daily hanging candidate; enclosure, drainage and weather require onsite evidence.
+  storage_strategy: Moderate two-person clothing storage in each long-term bedroom; accessible toy reset outranks display.
+  bathtub_status: optional
+  bathtub_condition: Only after verified master-bath circulation permits it without compromising core functions.
+  permanent_cat_wall: false
+  gym_required: false
+  enclosure_approved: false
+  pet_safety: Ordinary doors for temporary access control; cat-safe windows/balconies, escape/fall prevention and safe cables. No permanent gates planned.
+# Values below are requirement labels, checked against Space Program; no coordinates.
+requirement_labels:
+  desk: "REQUIREMENT ONLY: preferred desk 1600–1800 mm; depth 750 / 800 mm"
+  desk_fallback: "REQUIREMENT ONLY: constrained desk fallback 1400 mm"
+  monitors: "REQUIREMENT ONLY: 2 monitors, 27 inch each"
+  parents_bed: "REQUIREMENT ONLY: parents bed width 1.8 m"
+  child_bed: "REQUIREMENT ONLY: child bed width 1.35–1.5 m"
+  tv: "REQUIREMENT ONLY: TV target 75 inch; future ~85 inch conditional"
+concepts:
+  - id: A
+    name: conservative_minimum_intervention
+    title: Conservative / Minimum Intervention
+    intervention_level: low
+    room_roles:
+      master_bedroom: master
+      bedroom_south: parents
+      bedroom_north_1: child
+      bedroom_north_2: guest
+    child_guest_status: provisional_hypothesis
+    master_wfh:
+      first_attempt: master_suite
+      fallback: family_flex_room
+      fallback_condition: Master-suite workstation materially harms bedroom or wardrobe circulation.
+      strategy: Test a quiet work zone in the master bedroom; keep closet and bathroom access intact. Review chair movement, glazing glare, video background and services before any furniture selection.
+    parents_strategy: Preserve south-room relationship to public area; prioritize comfortable sleep, two-side bed access, two-person storage and a safe nighttime bathroom route before decorative storage.
+    living_dining_strategy: Separate lightweight sofa/TV and compact extendable dining uses; use loose furnishings to keep familiar circulation and avoid opening changes.
+    family_flex:
+      mode: glazed_quiet_family
+      primary_use: family_reading_drawing_quiet_activity
+      strategy: Largely retain developer glazed character; loose books/toy storage supports reading, drawing and quiet activity. Temporary work only under the stated master-suite fallback condition.
+      opening_change: none_assumed
+      functional_wall: none_assumed
+    entrance_right:
+      mode: neutral_flex_pet_candidate
+      status: provisional_condition_dependent
+      enclosure_approved: false
+      condition: Verify heat, weather, ventilation, access, enclosure permission and cat safety onsite before assigning any use.
+      strategy: Keep neutral overflow; optional pet rest or backup litter support, with no committed gym or enclosure.
+      unsuitable_fallback: Keep neutral; use indoor utility and bathroom candidates for litter instead.
+    pet_infrastructure:
+      cat_count: 5
+      status: candidate_locations_only
+      strategy: Distributed indoor support first; cleanable litter candidates stay apart from food/water. Fountain needs safe power, with no outlet location selected.
+      indoor_fallback: Utility primary and bathroom backup are independent indoor candidates, subject to clearance and ventilation checks; do not crowd retained fixtures or laundry.
+      candidates:
+        - {id: litter_primary, room_id: utility, use: litter_primary, label: LITTER PRIMARY CANDIDATE, condition: Verify service boundaries and cleanable ventilated space without sacrificing laundry.}
+        - {id: litter_backup, room_id: bathroom_2, use: litter_backup, label: LITTER BACKUP CANDIDATE, condition: Verify dry accessible clearance away from fixtures and door route.}
+        - {id: water, room_id: living, use: water, label: PET WATER CANDIDATE, condition: Verify dry location apart from litter and safe fountain power/cables.}
+        - {id: feeding, room_id: dining, use: feeding, label: PET FEEDING CANDIDATE, condition: Verify separation from litter and family table circulation.}
+        - {id: rest, room_id: living, use: scratch_rest_perch, label: PET REST / PERCH CANDIDATE, condition: Verify sunny safe perch and loose scratch/rest furniture.}
+    zones:
+      master_bedroom: [SLEEP + WFH ZONE]
+      walk_in_closet: [TWO-PERSON STORAGE]
+      bedroom_south: [SLEEP + STORAGE]
+      bedroom_north_1: [SLEEP / CHILD STUDY, CLOTHES + BOOKS]
+      bedroom_north_2: [GUEST SLEEP / QUIET USE]
+      flex_tea_room: [GLAZED FAMILY FLEX, READING / DRAWING, LOOSE TOY STORAGE]
+      living: [LIGHT SOFA ZONE, MOVABLE TV DEFAULT]
+      dining: [COMPACT EXTENDABLE DINING]
+      kitchen: [SLIDING GLASS DOOR LOGIC]
+      entry_garden: [NEUTRAL FLEX CANDIDATE]
+      service_balcony: [LAUNDRY / DAILY DRYING]
+    assumptions:
+      - Current room relationships can be discussed without assuming wall or opening alterations.
+      - Master work and sleep can coexist only if B1 circulation and glare checks pass.
+      - Child/guest hypotheses do not imply either upper room is objectively better.
+    strengths:
+      - Lowest intervention baseline with familiar parents/public circulation.
+      - Glazed quiet-family use preserves retreat while public furnishings stay movable.
+      - Indoor pet candidates reduce dependence on entrance-right exposure.
+    tradeoffs:
+      - Glazed flex may be less connected to public play and toy reset.
+      - Master WFH shares sleep space; fallback conversion is less prepared.
+      - Indoor litter competes with service and bathroom functions until B1 checks.
+    b1_blockers:
+      - Master clear spans, chair clearance, closet route, glare/background and service feasibility.
+      - Parents bed access, storage and nighttime bathroom route without level changes.
+      - Upper-room light, clear spans and furniture-fit evidence before child/guest assignment.
+      - Flex/public connection and corridor/bath trace overlaps; preserve trace gaps until measured.
+      - Service/entrance boundaries, laundry weather and litter clearance/ventilation/separation.
+      - Verified TV viewing distance, cat-safe glazing and structural/facade/fire/MEP restrictions.
+
+  - id: B
+    name: family_flex_public_space_first
+    title: Family Flex / Public Space First
+    intervention_level: medium_conditional
+    room_roles:
+      master_bedroom: master
+      bedroom_south: parents
+      bedroom_north_1: guest
+      bedroom_north_2: child
+    child_guest_status: provisional_hypothesis
+    master_wfh:
+      first_attempt: master_suite
+      fallback: family_flex_room
+      fallback_condition: Master-suite workstation materially harms bedroom or wardrobe circulation.
+      strategy: Attempt master bedroom work zone with uncluttered video background and protected closet route; keep public Family Flex primarily for family life unless circulation makes master work impractical.
+    parents_strategy: Preserve south bedroom as long-term parents room near shared life; protect two-side bed access, two-person storage and quiet nighttime bathroom circulation from public play spillover.
+    living_dining_strategy: Treat living/dining/flex as a coordinated family-activity group; movable TV and lightweight sofa allow play/reset cycles; keep table compact daily and expandable for gatherings.
+    family_flex:
+      mode: semi_open_public_extension
+      primary_use: child_family_activity_toy_reset
+      strategy: Conceptually test a usable solid functional wall for low cabinets, books, toys and optional future work surface; prefer a wide living-facing opening only after B1 structural/facade verification. No wall/opening drawn or approved.
+      opening_change: wide_living_facing_candidate
+      functional_wall: solid_functional_wall_candidate
+    entrance_right:
+      mode: pet_support_compact_activity_candidate
+      status: provisional_condition_dependent
+      enclosure_approved: false
+      condition: Verify heat, weather, ventilation, access, enclosure permission and cat safety onsite before assigning any use.
+      strategy: Explore pet support and optional compact activity overflow to relieve public toy congestion; no required gym.
+      unsuitable_fallback: Revert to neutral overflow; indoor utility primary and bathroom backup replace entrance litter support.
+    pet_infrastructure:
+      cat_count: 5
+      status: candidate_locations_only
+      strategy: Test entrance-side litter support to separate clean public activity from dirty functions; feeding and fountain remain distributed indoors with safe power and easy cleaning.
+      indoor_fallback: If entrance-right fails exposure/access checks, utility becomes primary and bathroom becomes backup; both need B1 clearances without compromising core fixtures or laundry.
+      candidates:
+        - {id: litter_primary, room_id: entry_garden, use: litter_primary, label: LITTER PRIMARY CONDITIONAL, condition: Provisional entrance anchor only; heat/weather/ventilation/access/enclosure and escape protection must pass.}
+        - {id: litter_backup, room_id: utility, use: litter_backup, label: INDOOR LITTER BACKUP, condition: Can become primary if entrance fails; verify cleanability and service/laundry clearance.}
+        - {id: litter_alternate, room_id: bathroom_2, use: litter_backup, label: ALTERNATE LITTER CANDIDATE, condition: Indoor backup if utility becomes primary; verify dry fixture/door clearance.}
+        - {id: water, room_id: living, use: water, label: PET WATER CANDIDATE, condition: Separate from litter and toy reset route; safe fountain power/cables.}
+        - {id: feeding, room_id: dining, use: feeding, label: PET FEEDING CANDIDATE, condition: Separate from litter and extendable-table route.}
+        - {id: rest, room_id: flex_tea_room, use: scratch_rest_perch, label: LOOSE PET REST CANDIDATE, condition: Loose rest/scratch furniture only if compatible with children and wide-opening feasibility.}
+    zones:
+      master_bedroom: [SLEEP + WFH ZONE]
+      walk_in_closet: [TWO-PERSON STORAGE]
+      bedroom_south: [SLEEP + STORAGE]
+      bedroom_north_1: [GUEST SLEEP / READING]
+      bedroom_north_2: [SLEEP / CHILD STUDY, CLOTHES + BOOKS]
+      flex_tea_room: [SEMI-OPEN FAMILY FLEX, TOY / BOOK WALL CANDIDATE, WIDE OPENING CANDIDATE]
+      living: [LIGHT SOFA / FAMILY PLAY, MOVABLE TV DEFAULT]
+      dining: [EXTENDABLE DINING / RESET]
+      kitchen: [SLIDING GLASS DOOR LOGIC]
+      entry_garden: [PET / ACTIVITY CANDIDATE]
+      service_balcony: [LAUNDRY / DAILY DRYING]
+    assumptions:
+      - Public integration is a preference, not evidence of a real shared opening in B0.
+      - A solid functional wall and wide opening require permissions and a verified envelope.
+      - Reversed child/guest hypothesis tests allocation only; neither room is declared better.
+    strengths:
+      - Strongest integration of child/family activity with living and easy toy reset.
+      - Functional-wall candidate combines books, toys and possible future work utility.
+      - Pet support can relieve indoor congestion if entrance conditions pass.
+    tradeoffs:
+      - Wide opening may increase noise and reduce quiet retreat or office privacy.
+      - Conditional glazing/wall exploration carries more feasibility risk than A.
+      - Entrance pet support cannot be relied on before heat/weather and safety checks.
+    b1_blockers:
+      - Actual flex/living connection; B0 has no verified shared edge or opening.
+      - Structural, facade, glazing, fire and MEP approval for functional wall and wide opening.
+      - Master WFH chair/closet route, glare, background and service feasibility.
+      - Parents two-side bed access and nighttime route protected from activity circulation.
+      - Upper-room light, clear spans and furniture-fit evidence before child/guest assignment.
+      - Entrance exposure/access and indoor litter alternatives; laundry and fixture clearances.
+      - Verified TV viewing distance, toy reset paths and cat-safe glazing/cables.
+
+  - id: C
+    name: resilient_work_pet_activity
+    title: Resilient Work + Pet / Activity
+    intervention_level: medium_conditional
+    room_roles:
+      master_bedroom: master
+      bedroom_south: parents
+      bedroom_north_1: child
+      bedroom_north_2: guest
+    child_guest_status: provisional_hypothesis
+    master_wfh:
+      first_attempt: master_suite
+      fallback: family_flex_room
+      fallback_condition: Master-suite workstation materially harms bedroom or wardrobe circulation.
+      strategy: Test master work zone first with chair, closet access, video background and glare checks; prepare a reversible Family Flex work mode only if master-suite circulation fails. Power/network routes remain unassigned.
+    parents_strategy: Keep south bedroom for long-term parents; prioritize two-side bed access, two-person storage and easy nighttime bathroom access, keeping work calls and dirty pet care away from sleep routes where feasible.
+    living_dining_strategy: Keep movable TV, light sofa and extendable dining; public play remains available when flex is temporarily in backup work mode.
+    family_flex:
+      mode: reversible_family_backup_office
+      primary_use: family_quiet_activity
+      strategy: Explore reversible quiet-work mode using loose work surface, contained books/toys and retained closable glazed character if feasible. Family reading/drawing remains default; only activate office fallback when master circulation fails, then reset for family use outside calls.
+      opening_change: closable_connection_candidate
+      functional_wall: reversible_storage_work_candidate
+    entrance_right:
+      mode: deliberate_pet_activity_candidate
+      status: provisional_condition_dependent
+      enclosure_approved: false
+      condition: Verify heat, weather, ventilation, access, enclosure permission and cat safety onsite before assigning any use.
+      strategy: Deliberate Pet + Activity candidate with cat rest, litter/water support and optional compact exercise; separate dirty and clean functions conceptually. No permanent climbing wall, forced gym or approved enclosure.
+      unsuitable_fallback: Keep entrance neutral; distribute litter indoors and rest/water in living; optional compact activity uses movable public-space furnishings only if practical.
+    pet_infrastructure:
+      cat_count: 5
+      status: candidate_locations_only
+      strategy: Stronger dirty/clean candidate zoning with litter separated from fountain/feeding and washable service transitions. Indoor water/feeding/rest remain available; do not concentrate all infrastructure at the entrance.
+      indoor_fallback: Utility primary plus bathroom backup if entrance fails; living retains water/rest and dining feeding. Verify all locations for safe access, ventilation, clearance and cleanability before selection.
+      candidates:
+        - {id: litter_primary, room_id: entry_garden, use: litter_primary, label: DIRTY PET SUPPORT CONDITIONAL, condition: Entrance anchor only; heat/weather/ventilation/access/enclosure and escape protection must pass.}
+        - {id: litter_backup, room_id: utility, use: litter_backup, label: INDOOR LITTER BACKUP, condition: Primary alternative if entrance fails; verify service boundaries and cleaning/laundry clearance.}
+        - {id: litter_alternate, room_id: bathroom_2, use: litter_backup, label: ALTERNATE LITTER CANDIDATE, condition: Indoor backup if utility becomes primary; preserve dry fixture and door clearance.}
+        - {id: water, room_id: living, use: water, label: CLEAN PET WATER CANDIDATE, condition: Indoor fountain retained apart from litter; safe power/cables.}
+        - {id: feeding, room_id: dining, use: feeding, label: CLEAN PET FEEDING CANDIDATE, condition: Separate from dirty support and family table circulation.}
+        - {id: rest, room_id: living, use: scratch_rest_perch, label: INDOOR PET REST / PERCH, condition: Safe loose rest/perch remains indoors regardless of entrance suitability.}
+        - {id: entrance_rest, room_id: entry_garden, use: scratch_rest_perch, label: PET REST / ACTIVITY CONDITIONAL, condition: Optional support only after exposure and safety checks; no fixed cat wall.}
+    zones:
+      master_bedroom: [SLEEP + PRIMARY WFH ATTEMPT]
+      walk_in_closet: [TWO-PERSON STORAGE]
+      bedroom_south: [SLEEP + STORAGE]
+      bedroom_north_1: [SLEEP / CHILD STUDY, CLOTHES + BOOKS]
+      bedroom_north_2: [GUEST SLEEP / QUIET HOBBY]
+      flex_tea_room: [FAMILY / BACKUP WORK MODE, ONLY IF MASTER FAILS, REVERSIBLE TOY / BOOK STORAGE]
+      living: [LIGHT SOFA / FLEXIBLE PLAY, MOVABLE TV DEFAULT]
+      dining: [COMPACT EXTENDABLE DINING]
+      kitchen: [SLIDING GLASS DOOR LOGIC]
+      entry_garden: [PET + ACTIVITY CANDIDATE]
+      service_balcony: [LAUNDRY / DAILY DRYING]
+    assumptions:
+      - Master WFH stays first; flex office readiness does not select it as primary work location.
+      - Quiet work mode needs a closable connection and acoustic/glare checks, not a permanent office conversion.
+      - Entrance anchor is unverified and outdoor exposure may rule out pet/activity use entirely.
+      - Child/guest hypothesis remains reversible with no ranking of upper rooms.
+    strengths:
+      - Most prepared for future work/pet/activity changes without giving up family use.
+      - Explicit indoor pet alternatives preserve resilience if entrance use is impossible.
+      - Reversible contained storage helps reset flex between quiet family and backup calls.
+    tradeoffs:
+      - Backup calls compete with family access to flex and require repeated resets.
+      - More candidate functions require management and may exceed verified usable space.
+      - Closable flex and entrance support feasibility cannot be inferred from this trace.
+    b1_blockers:
+      - Master WFH chair/closet route, glare, background and service feasibility before fallback activation.
+      - Verified flex connection, closability, acoustics and reversible work/storage clearance.
+      - Entrance heat/weather/ventilation/access, cat-safe enclosure permission and clean/dirty separation.
+      - Indoor litter alternatives, retained bathroom fixtures and laundry weather/hanging clearance.
+      - Parents two-side bed access, storage and safe nighttime bathroom route.
+      - Upper-room light, clear spans and furniture-fit evidence before child/guest assignment.
+      - Corridor/bath overlaps, suite scope, TV distance and structural/facade/fire/MEP restrictions.

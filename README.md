@@ -145,7 +145,7 @@ B0.1、B0.2 和第三方原始来源持续保留。详见 [Measurements](measure
 
 B0.1/B0.2 的数据、代码和 artifacts 不变。新 overlay 在 `A-LAYOUT-INPUT` 上区分高/中/未决，
 不重画 polygon、不补录长度、不把套房面积赋予主卧单间。项目仍为 B0，
-`design.layout_status: provisional_input_ready` 仅表示可启动概念 Layout A/B/C 比较，B1/L1 未完成。
+当时的 `design.layout_status: provisional_input_ready` 表示可启动概念 Layout A/B/C 比较；Issue #9 后进展为 `concept_variants_ready`，B1/L1 仍未完成。
 
 ```bash
 uv run python scripts/validate_layout_input.py
@@ -167,6 +167,25 @@ uv run pytest
 弹性公共区与五猫基础设施，供未来 Layout A/B/C 比较。
 需求发现完成不代表布局已选定；儿童／客房分配、flex 用途及尺寸适配仍未决。
 B0.1/B0.2/B0.3 全部保留，项目仍为 B0，B1/L1 Pending，不可施工。
+
+## Layout A / B / C v0.1 临时概念方案
+
+[方案比较](docs/LAYOUT_CONCEPTS_v0.1.md) 和
+[结构化概念数据](data/layout_concepts_v0.1.yaml) 按 Issue #9 提供三种不同方向：
+A 保守／最低干预，B 家庭活动与公共区优先，C 工作备用模式与宠物／活动弹性优先。
+三套独立 DXF／PNG 保留全部 B0 几何，仅添加角色、用途和候选位置文字。
+儿童／客房采用两种相反的临时假设；最终分配等待 B1 光照、净跨度及家具适配证据。
+主套房优先 WFH、南卧父母长期居住、四卧三卫、五猫及室内备用基础设施均保留。
+没有方案被选为赢家，入口右侧用途及围合未获施工批准，没有实测家具矩形或施工尺寸。
+
+```bash
+uv run python scripts/generate_layout_concepts.py
+uv run python scripts/validate_layout_concepts.py --artifacts
+uv run pytest
+```
+
+`design.layout_status: concept_variants_ready` 仅表示概念方案可供 review。
+项目仍为 B0、不可施工，B1 Pending、L1 Pending／未选定；Product Owner review 后选择或组合方案。
 
 ## 版本规范
 
