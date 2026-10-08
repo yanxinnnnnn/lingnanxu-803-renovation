@@ -1,0 +1,405 @@
+schema_version: "0.1"
+program:
+  id: space_program_v0.1
+  version: "0.1"
+  project_code: LN803
+  source_issue: https://github.com/yanxinnnnnn/lingnanxu-803-renovation/issues/7
+  discovery_status: complete
+  purpose: Household requirements baseline for future Layout A/B/C comparison.
+  construction_ready: false
+  layout_selected: false
+  geometry_assignment_status: tbd
+  status_definitions:
+    confirmed: Required household need or agreed planning strategy; feasibility conditions still apply.
+    preferred: Current design preference, subject to comparison and Product Owner decision.
+    optional: Stretch goal; must not compromise core requirements.
+    tbd: Decision not made.
+    onsite_verification_required: Unresolved until B1 evidence and applicable professional confirmation.
+  geometry_context:
+    base_geometry: data/b0_floorplan.yaml
+    provisional_measurements: data/b0_provisional_measurements.yaml
+    provisional_layout_input: data/b0_layout_input.yaml
+    note: These references remain B0; equipment targets below are requirements, not measured room dimensions.
+
+household:
+  status: confirmed
+  human_resident_count: 5
+  cat_count: 5
+  residents:
+    - id: homeowner
+      role: Homeowner
+    - id: spouse
+      role: Spouse
+    - id: parents
+      role: Two parents; long-term residents who help with weekday childcare.
+      count: 2
+    - id: child
+      name: Xiaoqian
+      role: Child; long-term growth-oriented room.
+  bedroom_retention:
+    status: confirmed
+    count: 4
+
+# Program room IDs express uses, not assignments to B0 polygons.
+room_allocations:
+  master_suite:
+    status: confirmed
+    occupants: [homeowner, spouse]
+    requirements:
+      - id: master_relationship
+        status: confirmed
+        statement: Retain master bedroom + walk-in closet + master bathroom relationship where feasible.
+      - id: master_comfort
+        status: confirmed
+        statement: Prioritize comfortable sleep, circulation and long-term two-person storage.
+      - id: master_wfh_first
+        status: confirmed
+        statement: Attempt primary long-term WFH inside the master suite first; see conditional fallback below.
+  parents_room:
+    status: confirmed
+    occupants: [parents]
+    requirements:
+      - id: parents_long_term
+        status: confirmed
+        statement: A second long-term master bedroom, not a guest room.
+      - id: parents_bed
+        status: confirmed
+        statement: Double bed; usable circulation on both sides if feasible.
+        bed_width_m: 1.8
+      - id: parents_storage
+        status: confirmed
+        statement: Adequate long-term two-person storage.
+      - id: parents_access
+        status: confirmed
+        statement: Convenient nighttime bathroom route; avoid unnecessary level changes and awkward narrow circulation; practical age-friendly circulation outranks decorative furniture.
+  child_room:
+    status: confirmed
+    occupants: [child]
+    requirements:
+      - id: child_growth
+        status: confirmed
+        statement: Long-term growth-oriented room, not a short-lived preschool layout.
+      - id: child_furniture
+        status: confirmed
+        statement: Target bed plus proper study desk, wardrobe and books.
+        bed_width_m: {min: 1.35, max: 1.5}
+      - id: child_public_play
+        status: preferred
+        statement: Main play/activity space may be in the living/public area.
+    assignment:
+      status: onsite_verification_required
+      selection_pool: Two smaller upper bedrooms; no polygon assigned yet.
+      criteria: Better light, more regular shape and easier furnishing for child after B0.3/onsite comparison; other room becomes guest room.
+      open_question_id: child_assignment
+  guest_room:
+    status: confirmed
+    occupants: [overnight_guests]
+    requirements:
+      - id: guest_sleep
+        status: confirmed
+        statement: Retain true sleeping function for low-frequency overnight use.
+      - id: guest_second_use
+        status: confirmed
+        statement: Useful ordinary-day second function, such as storage, reading or quiet hobby; exact use remains open.
+    furniture_strategy:
+      status: tbd
+      options_not_selected: [tatami, wall_bed, sofa_bed, fixed_bed]
+      statement: Select only after verified dimensions; do not lock a furniture strategy now.
+
+work_from_home:
+  status: confirmed
+  primary_user: homeowner
+  frequency: Long-term / frequent
+  frequent_video_meetings: true
+  spouse_dedicated_office_required: false
+  equipment:
+    status: confirmed
+    computers: [work_laptop, entertainment_desktop_pc]
+    monitors: {count: 2, diagonal_in: 27}
+  location_strategy:
+    status: confirmed
+    first_attempt: master_suite
+    fallback: family_flex_room
+    fallback_condition: Master-suite workstation materially harms bedroom or wardrobe circulation.
+    feasibility_status: onsite_verification_required
+    open_question_id: master_wfh_fit
+  desk:
+    status: preferred
+    width_mm: {min: 1600, max: 1800}
+    depth_options_mm: [750, 800]
+    constrained_fallback:
+      status: preferred
+      width_mm: 1400
+      condition: Constrained fallback only, not the preferred target.
+  requirements:
+    - id: wfh_chair_clearance
+      status: confirmed
+      statement: Consider chair clearance; no clearance dimension specified before B1.
+    - id: wfh_background
+      status: preferred
+      statement: Clean video-call background.
+    - id: wfh_glare
+      status: confirmed
+      statement: Avoid strong screen glare from glazing.
+    - id: wfh_services
+      status: confirmed
+      statement: Plan adequate power, network and cable management; exact points remain onsite-dependent.
+
+kitchen:
+  status: confirmed
+  requirements:
+    - id: cooking_pattern
+      status: confirmed
+      statement: Support occasional Chinese stir-frying / higher-oil cooking.
+    - id: kitchen_glass_door
+      status: confirmed
+      statement: Keep developer sliding glass-door logic if practical; open for light cooking, close for heavy cooking.
+    - id: kitchen_fridge
+      status: confirmed
+      statement: Normal double-door / side-by-side refrigerator is sufficient.
+    - id: kitchen_dishwasher
+      status: confirmed
+      statement: Developer delivery includes dishwasher integrated in dining-area cabinetry.
+    - id: kitchen_future_appliances
+      status: confirmed
+      statement: Preserve future appliance expandability where inexpensive.
+  refrigerator_model:
+    status: tbd
+    open_question_id: refrigerator_size
+  steam_combi_oven:
+    status: optional
+    phase_1_required: false
+
+dining:
+  status: confirmed
+  daily_party_approx: 4
+  requirements:
+    - id: dining_extendable
+      status: confirmed
+      statement: Use extendable table; concept target is compact four-person mode expandable for larger gatherings.
+    - id: dining_footprint
+      status: preferred
+      statement: Compact everyday footprint; avoid oversized fixed dining table.
+
+bathrooms:
+  status: confirmed
+  retained_count: 3
+  requirements:
+    - id: bathroom_fixtures
+      status: confirmed
+      statement: Developer basins and toilets remain unless a later value-engineering / replacement decision.
+  master_bathtub:
+    status: optional
+    condition: Only if verified space permits comfortable circulation; never distort core functions to force it.
+    open_question_id: bathtub_fit
+
+laundry:
+  status: confirmed
+  primary_zone: Small unglazed service balcony near entrance; exact extent remains onsite-dependent.
+  appliance: washer_dryer_combo
+  requirements:
+    - id: laundry_daily_drying
+      status: confirmed
+      statement: Daily clothes drying remains necessary initially; preserve practical hanging capacity.
+    - id: laundry_transition
+      status: confirmed
+      statement: Allow gradual dryer-first / dry-and-store transition if performance is satisfactory.
+    - id: laundry_cleaning
+      status: confirmed
+      statement: Easy-clean surfaces.
+  site_conditions:
+    status: onsite_verification_required
+    open_question_id: service_balcony
+
+living_media:
+  requirements:
+    - id: living_sofa
+      status: preferred
+      statement: Lightweight, contemporary, visually light sofa; avoid oversized/heavy fixed composition.
+    - id: living_tv_cart
+      status: preferred
+      statement: Movable TV stand rather than a fixed traditional TV wall.
+    - id: living_tv_usage
+      status: confirmed
+      statement: Normal viewing by parents and occasional homeowner game-console use.
+    - id: living_media_routing
+      status: preferred
+      statement: Console/soundbar ideally move with TV cart or have clean cable routing.
+    - id: living_child_safety
+      status: confirmed
+      statement: Child safety, anti-tip measures, lockable wheels and cable restraint are required.
+    - id: living_coffee_table
+      status: optional
+      statement: Coffee table and occasional simple meals there are acceptable.
+  tv:
+    status: preferred
+    baseline_diagonal_in: 75
+    future_compatibility_diagonal_in_approx: 85
+    condition: Keep layout/stand/cables compatible with approximately 85 inch only if final viewing distance supports it.
+    final_selection_status: onsite_verification_required
+    open_question_id: tv_size
+
+flex_spaces:
+  family_flex_room:
+    existing_condition: Developer three-sided glass enclosure near living room; final use undecided.
+    direction:
+      status: preferred
+      statement: Explore semi-open Family Flex Room, without fixing it as tea room, gym or permanent office.
+    requirements:
+      - id: flex_light
+        status: preferred
+        statement: Retain strong visual/daylight connection to living room.
+      - id: flex_functional_wall
+        status: preferred
+        statement: Consider one solid functional wall for low cabinets, books, toy storage, optional cat furniture or future work surface.
+      - id: flex_wide_opening
+        status: preferred
+        statement: Keep living-facing side capable of opening widely if feasible.
+      - id: flex_wfh_condition
+        status: confirmed
+        statement: Do not make this primary WFH unless the master-suite workstation proves impractical.
+    possible_uses:
+      status: optional
+      options: [child_reading_drawing, family_activity, quiet_hobby, temporary_work, flexible_overflow]
+    final_use:
+      status: tbd
+      open_question_id: multifunction_enclosure
+  entrance_right:
+    existing_condition: Unglazed space; developer example encloses with full-height glazing as tiny gym/spin-bike room.
+    direction:
+      status: tbd
+      statement: Owner likes the creative example but does not require it; no use or enclosure selected.
+    exploration_options:
+      status: optional
+      options: [activity_hobby, compact_gym, pet_support, hybrid_pet_activity]
+    site_conditions:
+      status: onsite_verification_required
+      open_question_id: entrance_right_conditions
+
+pets:
+  status: confirmed
+  cat_count: 5
+  current_setup:
+    status: confirmed
+    litter_boxes: {count: 2, type: open_non_automatic, arrangement: together}
+    feeders: non_automatic
+    water: powered_automatic_fountain
+    access: Free access to all rooms.
+    climbing_wall: No existing system; cats have limited interest in dedicated climbing-wall equipment.
+  requirements:
+    - id: pet_practical_infrastructure
+      status: confirmed
+      statement: Prioritize litter, water, feeding, scratch/rest and sunny perch opportunities.
+    - id: pet_cleanability
+      status: confirmed
+      statement: Prioritize cleanability and hair management.
+    - id: pet_fountain_power
+      status: confirmed
+      statement: Dedicated outlet for water fountain; exact point remains unassigned.
+    - id: pet_litter_separation
+      status: confirmed
+      statement: Keep litter away from food/water where feasible.
+    - id: pet_litter_expansion
+      status: confirmed
+      minimum_backup_location_count: 1
+      statement: At least one feasible backup/expansion litter location in addition to the current two-box arrangement; do not hard-code only two box positions.
+    - id: pet_environment
+      status: confirmed
+      statement: Avoid concentrating all pet infrastructure in a space that may become too hot, wet, windy or inaccessible.
+    - id: pet_escape_fall
+      status: confirmed
+      statement: Window/balcony escape prevention; any enclosed balcony/glazing must include cat-safe anti-escape/anti-fall detailing.
+    - id: pet_cables
+      status: confirmed
+      statement: Cable safety.
+    - id: pet_access_control
+      status: confirmed
+      statement: Ordinary room doors are the default temporary access control; no permanent cat gates/restrictions unless a later use case requires them.
+    - id: pet_climbing_restraint
+      status: confirmed
+      statement: Do not over-design a large permanent cat climbing-wall system unless later justified.
+  litter_locations:
+    status: onsite_verification_required
+    open_question_id: litter_locations
+
+storage:
+  status: confirmed
+  requirements:
+    - id: storage_clothing
+      status: confirmed
+      statement: Moderate family clothing volume; do not overbuild wardrobes merely for maximum storage.
+    - id: storage_toys
+      status: confirmed
+      statement: Child toys are higher-volume; accessible public-zone storage that is easy to reset outranks decorative display.
+
+construction_flexibility:
+  owner_openness:
+    status: confirmed
+    allowed_to_explore: [non_load_bearing_partition_adjustment, non_structural_door_opening_change, multifunction_glass_enclosure_change]
+    statement: Openness to exploration is not approval for physical works.
+  restrictions:
+    status: onsite_verification_required
+    statement: Structural, facade, external glazing, fire and MEP constraints require verified documentation / professional confirmation.
+    open_question_id: professional_constraints
+
+budget:
+  status: tbd
+  total: null
+  requirements:
+    - id: budget_timing
+      status: confirmed
+      statement: Develop budget after first viable layout options; avoid premature luxury-spec assumptions.
+
+layout_priorities:
+  status: confirmed
+  change_authority: Product Owner
+  ordered:
+    - Verified safety / structural / MEP constraints
+    - Comfortable long-term use for five human residents
+    - Four-bedroom retention
+    - Master-suite WFH feasibility
+    - Parents' long-term comfort and childcare circulation
+    - Child growth-oriented room
+    - Flexible public area and toy storage
+    - Five-cat infrastructure and cleanability
+    - Optional / decorative functions
+    - Bathtub / gym / special-feature spaces
+
+# Questions are evidence needs, not answered feasibility claims or new dimensions.
+open_questions:
+  - id: master_wfh_fit
+    status: onsite_verification_required
+    question: Exact master-suite clear dimensions; can the preferred workstation fit without harming bedroom/wardrobe circulation, with chair clearance and suitable glare/background conditions?
+  - id: child_assignment
+    status: onsite_verification_required
+    question: Which smaller upper bedroom is better-lit, more regular and easier to furnish for the child; other becomes guest room?
+  - id: parents_clearances
+    status: onsite_verification_required
+    question: Parents-room bed/wardrobe clearances, two-side access and practical nighttime bathroom route?
+  - id: bathtub_fit
+    status: onsite_verification_required
+    question: Does master-bath space allow a bathtub with comfortable circulation and no harm to core functions?
+  - id: tv_size
+    status: onsite_verification_required
+    question: Final TV size based on verified sofa-to-TV viewing distance?
+  - id: multifunction_enclosure
+    status: onsite_verification_required
+    question: Multifunction-zone glazing, partitions and openings; feasibility of functional wall/wide living-facing opening?
+  - id: entrance_right_conditions
+    status: onsite_verification_required
+    question: Entrance-right dimensions, ventilation, solar/weather exposure, enclosure feasibility and safe pet use?
+  - id: service_balcony
+    status: onsite_verification_required
+    question: Service-balcony enclosure/weather, drainage, ventilation and practical hanging capacity?
+  - id: refrigerator_size
+    status: onsite_verification_required
+    question: Exact refrigerator model/dimensions and fit?
+  - id: litter_locations
+    status: onsite_verification_required
+    question: Current litter station plus feasible backup/expansion location, separated from food/water and safe from heat/wet/wind/inaccessibility?
+  - id: tv_service_points
+    status: onsite_verification_required
+    question: Exact movable-TV power/network points and safe cable routing?
+  - id: professional_constraints
+    status: onsite_verification_required
+    question: All structural/load-bearing/facade/external glazing/fire/MEP restrictions, verified documents and professional confirmation?

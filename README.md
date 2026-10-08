@@ -159,6 +159,15 @@ uv run pytest
 [B0.3 planning summary](docs/B0.3_LAYOUT_INPUT.md) 列出授权面积、拓扑差异、未决问题、
 概念推敲范围和 B1 前必须现场核验的事项；原 onsite worksheet 继续使用。
 
+## Space Program v0.1
+
+首轮家庭需求发现完成，见 [Space Program v0.1](docs/SPACE_PROGRAM_v0.1.md)
+与 [结构化 YAML](data/space_program_v0.1.yaml)。两份资料按 Issue #7 区分已确认需求、
+当前偏好、可选目标及待现场核验事项，涵盖五位长期居民、四卧室、主套房优先 WFH、
+弹性公共区与五猫基础设施，供未来 Layout A/B/C 比较。
+需求发现完成不代表布局已选定；儿童／客房分配、flex 用途及尺寸适配仍未决。
+B0.1/B0.2/B0.3 全部保留，项目仍为 B0，B1/L1 Pending，不可施工。
+
 ## 版本规范
 
 ```text
